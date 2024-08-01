@@ -25,38 +25,71 @@
   </head>
   <body>
     <header>
-      <!-- Logo as a banner -->
+      <!-- Experience Valencia Logo as a banner -->
       <img
         src="assets/images/experience_valencia_logo.png"
         alt="Experience Valencia Logo"
-        class="logo"
+        id="logo"
       />
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="explore_valencia.html">Explore Valencia</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="explore.html">Explore Valencia</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <main>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="hero-bg">
+          <div class="hero-text">
+            <h1>Contact Us</h1>
+            <p>
+              We'd love to hear from you! Get in touch with us for any enquiries
+              or feedback
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Introduction to Contact Us page -->
+      <section id="page-intro">
+        <div class="website-text-content">
+          <h2>Get in Touch with Us</h2>
+          <p>
+            We'd love to hear from you! Whether you have questions about your
+            trip to Valencia, need personalised recommendations, or want to
+            share your experience, our team is here to help. Fill out the form
+            below, and we'll get back to you as soon as possible.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
       <section id="contact-form">
-        <h2>Get in Touch with Us</h2>
-        <p>
-          We'd love to hear from you! Whether you have questions about your trip
-          to Valencia, need personalised recommendations, or want to share your
-          experience, our team is here to help. Fill out the form below, and
-          we'll get back to you as soon as possible.
-        </p>
-        <form action="#" method="POST">
-          <label for="name">Name</label>
+        <form action="thank-you.html" method="POST">
+          <label for="name">Full Name</label>
           <input type="text" name="name" id="name" required />
           <label for="email">Email</label>
           <input type="email" name="email" id="email" required />
+          <label for="subject">Subject</label>
+          <select name="subject" id="subject" required>
+            <option value="Enquiry">Enquiry</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Other">Other</option>
+          </select>
           <label for="message">Message</label>
-          <textarea name="message" id="message" required></textarea>
-          <button type="reset">Clear</button>
-          <button type="submit">Sumbit</button>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here... "
+            required
+          ></textarea>
+          <button type="reset" id="reset">Clear</button>
+          <button type="submit" id="sumbit">Submit</button>
         </form>
       </section>
     </main>
