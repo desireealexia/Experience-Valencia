@@ -26,36 +26,197 @@
   </head>
   <body>
     <header>
-      <!-- Logo as a banner -->
+      <!-- Experience Valencia Logo as a banner -->
       <img
         src="assets/images/experience_valencia_logo.png"
         alt="Experience Valencia Logo"
-        class="logo"
+        id="logo"
       />
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="explore_valencia.html">Explore Valencia</a></li>
+          <li>
+            <a href="explore.html" class="active">Explore Valencia</a>
+          </li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="attractions">
-        <h2>Top Attractions in Valencia</h2>
-        <p>
-          Explore the must-see sights of Valencia. Discover the iconic City of
-          Arts and Sciences, stroll through the historic Old Town, and relax in
-          the lush Turia Gardens.
-        </p>
+      <!-- Hero section -->
+      <section class="hero">
+        <div class="hero-bg">
+          <div class="hero-text">
+            <h1>Explore Valencia</h1>
+            <p>
+              Discover the best attractions and cuisine that Valencia has to
+              offer
+            </p>
+          </div>
+        </div>
       </section>
+
+      <!-- Introduction to Explore Valencia page -->
+      <section id="page-intro">
+        <div class="website-text-content">
+          <h2>Welcome to Your Valencia Adventure</h2>
+          <p>
+            Dive into the vibrant culture of Valencia, Spain. From historical
+            landmarks and stunning architecture to mouth-watering local cuisine,
+            this city offers a unique blend of experiences that cater to every
+            traveller. Whether you're visiting iconic sites like the City of
+            Arts and Sciences or indulging in the rich flavors of authentic
+            paella, Valencia promises an unforgettable journey. Let us guide you
+            through the must-see attractions and culinary delights that make
+            this Mediterranean gem a top destination.
+          </p>
+          <!-- Buttons that link to the attractions and cuisine sections -->
+          <div class="btns">
+            <a href="#attractions"
+              ><img
+                src="assets/icons/landmark.png"
+                alt="Landmark icon"
+              />Attractions</a
+            >
+            <a href="#cuisine"
+              ><img
+                src="assets/icons/cutlery.png"
+                alt="Cutlery icon"
+              />Cuisine</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Attractions section  -->
+      <section id="attractions">
+        <div class="website-text-content">
+          <h2>Top Attractions in Valencia</h2>
+          <p>
+            Explore the must-see sights of Valencia. Discover the iconic City of
+            Arts and Sciences, stroll through the historic Old Town, and relax
+            in the lush Turia Gardens.
+          </p>
+        </div>
+        <div class="preview-row">
+          <div class="preview-column">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2015/11/18/16/03/valencia-1049389_1280.jpg"
+                alt="City of Arts and Sciences"
+              />
+              <div class="card-body">
+                <h4>City of Arts and Sciences</h4>
+                <p>
+                  This futuristic complex is a marvel of modern architecture. It
+                  includes the impressive Oceanogràfic aquarium, the interactive
+                  Science Museum, and the stunning Hemisférico planetarium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="preview-column">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2020/01/15/09/09/lonja-4767383_1280.jpg"
+                alt="La Lonja de la Seda"
+              />
+              <div class="card-body">
+                <h4>La Lonja de la Seda</h4>
+                <p>
+                  A UNESCO World Heritage site, La Lonja is a masterpiece of
+                  Gothic architecture. Once a bustling silk market, it's now a
+                  historical landmark showcasing Valencia's rich trading
+                  history.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="preview-column">
+            <div class="card">
+              <img
+                src="https://247valencia.com/wp-content/uploads/2020/10/cathedral-PHOTOSHOP-copia-SMALL-IMG_0788-copia.jpg"
+                alt="Valencia Cathedral"
+              />
+
+              <div class="card-body">
+                <h4>Valencia Cathedral</h4>
+                <p>
+                  Located in the heart of the city, this cathedral boasts a mix
+                  of Gothic, Romanesque, and Baroque architecture. It's also
+                  home to the Holy Grail, making it a significant site for both
+                  history and religion.
+                </p>
+                <!-- Image taken from 24/7 Valencia website [https://247valencia.com/visiting-valencia-cathedral-in-the-jubilee-year-of-the-holy-grail/] -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Cuisne section-->
       <section id="cuisine">
-        <h2>Valencia's Culinary Delights</h2>
-        <p>
-          Indulge in the rich flavours of Valencia. From the famous paella to a
-          variety of fresh seafood and traditional tapas, the city's culinary
-          scene is a feast for the senses.
-        </p>
+        <div class="website-text-content">
+          <h2>Valencia's Culinary Delights</h2>
+          <p>
+            Indulge in the rich flavours of Valencia. From the famous paella to
+            a variety of fresh seafood and traditional tapas, the city's
+            culinary scene is a feast for the senses.
+          </p>
+        </div>
+        <div class="preview-row">
+          <div class="preview-column">
+            <div class="card">
+              <img
+                src="https://cdn.pixabay.com/photo/2018/09/17/02/44/paella-3682886_1280.jpg"
+                alt="Paella"
+              />
+              <div class="card-body">
+                <h4>Paella</h4>
+                <p>
+                  A delicious rice dish cooked with saffron, vegetables, and
+                  various proteins. Try traditional Valencian paella with rabbit
+                  and chicken for an authentic experience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="preview-column">
+            <div class="card">
+              <!--  Image from Wikipedia [https://en.wikipedia.org/wiki/Horchata] -->
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/de/Horchata_de_chufa_2.jpg"
+                alt="Horchata"
+              />
+              <div class="card-body">
+                <h4>Horchata</h4>
+                <p>
+                  A refreshing drink made from tiger nuts, sugar, and water.
+                  It's a local specialty that pairs perfectly with sweet
+                  pastries like fartons.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="preview-column">
+            <div class="card">
+              <img
+                src="https://www.femalefoodie.com/wp-content/uploads/2020/05/spanish-churros-22.jpg"
+                alt="Churros with Chocolate"
+              />
+              <!-- Image taken from Female Foodie website [https://www.femalefoodie.com/recipes/spanish-churros-recipe/] -->
+              <div class="card-body">
+                <h4>Churros with Chocolate</h4>
+                <p>
+                  Indulge in this popular Spanish treat. Crispy churros served
+                  with a rich, thick chocolate dipping sauce make for a perfect
+                  dessert or breakfast.
+                </p>
+                <!-- Image taken from 24/7 Valencia website [https://247valencia.com/visiting-valencia-cathedral-in-the-jubilee-year-of-the-holy-grail/] -->
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
