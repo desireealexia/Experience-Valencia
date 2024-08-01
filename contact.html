@@ -67,19 +67,19 @@
       </section>
 
       <!-- Contact Form -->
-      <section id="contact-form">
-        <form action="thank-you.html" method="POST">
-          <label for="name">Full Name</label>
+      <div id="contact-form">
+        <form action="thank-you.html" method="get">
+          <label for="name">* Full Name</label>
           <input type="text" name="name" id="name" required />
-          <label for="email">Email</label>
+          <label for="email">* Email</label>
           <input type="email" name="email" id="email" required />
           <label for="subject">Subject</label>
-          <select name="subject" id="subject" required>
+          <select name="subject" id="subject">
             <option value="Enquiry">Enquiry</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
           </select>
-          <label for="message">Message</label>
+          <label for="message">* Message</label>
           <textarea
             name="message"
             id="message"
@@ -91,7 +91,7 @@
           <button type="reset" id="reset">Clear</button>
           <button type="submit" id="sumbit">Submit</button>
         </form>
-      </section>
+      </div>
     </main>
     <footer>
       <p>&copy; 2024 Experience Valencia</p>
