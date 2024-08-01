@@ -1,5 +1,5 @@
 /* ==========================================================================
- Goole Fonts: League Spartan and Quicksand   
+ Goole Fonts: League Spartan and Quicksand
  ========================================================================== */
 
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Quicksand:wght@300..700&display=swap");
@@ -9,15 +9,15 @@
    ========================================================================== */
 
 /* 
-   Background: #fff
-   Text: #000
-   Blue: #1c5b97
-   Red: #dc332e
-   Yellow: #ffcb47
+   Background: #fafafa (off-white)
+   Text: #000 (black) and #fff (white)
+   Primary colour: #1c5b97 (blue)
+   Secondary colour: #ffcb47 (yellow)
+   Accent colour: #dc332e (red)
 */
 
 /* ==========================================================================
-   General styling 
+   ALL PAGES: General styling 
    ========================================================================== */
 
 * {
@@ -27,7 +27,12 @@
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+  background-color: #fafafa;
+}
+
 /* Centres content */
+
 #page-intro,
 #attractions,
 #cuisine {
@@ -38,6 +43,12 @@
   max-height: 1000px;
   padding: 20px 10px 10px;
   margin: 30px 0;
+}
+
+/* Adds ease-in transition to all a tags */
+
+a {
+  transition: background-color 0.3s ease-in;
 }
 
 /* Typography
@@ -76,9 +87,6 @@ p {
 /* ==========================================================================
    Header
    ========================================================================== */
-
-/* Logo
-   ===================================== */
 
 #logo {
   display: block;
@@ -203,7 +211,7 @@ footer {
 }
 
 /* ==========================================================================
-   Essential tips section
+   HOME PAGE: Essential tips section
    ========================================================================== */
 
 #essential-tips {
@@ -249,7 +257,7 @@ footer {
   margin-bottom: 20px;
 
   text-align: left;
-  background: rgba(255, 203, 71, 0.7);
+  background: rgba(255, 203, 71, 0.8);
 
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -262,23 +270,23 @@ footer {
 }
 
 /* ==========================================================================
-   Attractions and Cuisine sections
+   EXPLORE VALENCIA PAGE: Attractions and Cuisine sections
    ========================================================================== */
 
 /* Buttons
    ===================================== */
 
-.btns {
-  margin-top: 20px;
+.explore-btns {
+  margin: 40px 0;
 }
 
-.btns img {
+.explore-btns img {
   width: 20px;
   height: 20px;
   margin-right: 15px;
 }
 
-.btns a {
+.explore-btns a {
   height: 60px;
   padding: 10px 20px;
   margin-right: 30px;
@@ -288,13 +296,14 @@ footer {
   color: #000;
   text-decoration: none;
 
-  border-bottom: 3px solid #ffcb47;
+  border-bottom: 3px solid #dc332e;
 }
 
-.btns a:hover {
-  background-color: rgba(255, 203, 71, 0.5);
+.explore-btns a:hover {
+  background-color: rgba(220, 51, 46, 0.8);
 
-  border-radius: 8px 8px 0 0;
+  border: none;
+  border-radius: 8px;
 }
 
 #attractions {
@@ -355,4 +364,166 @@ footer {
 
 .card-body h4 {
   margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   CONTACT US PAGE: Contact form
+   ========================================================================== */
+form {
+  width: 60%;
+  padding: 25px;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+label {
+  margin-left: 5px;
+
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0 15px;
+
+  font-size: 16px;
+  font-weight: 500;
+
+  border: 0.5px solid #000;
+  border-radius: 4px;
+}
+
+/* Sumbit and reset buttons
+   ===================================== */
+
+#sumbit,
+#reset {
+  display: inline;
+  width: 100px;
+  height: 50px;
+  padding: 10px 10px;
+  margin: 30px 10px;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+
+  border: none;
+  border-radius: 8px;
+
+  transition: background-color 0.5s ease;
+}
+
+#sumbit {
+  color: #fff;
+
+  background: #000;
+}
+
+#sumbit:hover {
+  color: #000;
+
+  background-color: #ffcb47;
+
+  border: none;
+}
+
+#reset {
+  color: #000;
+
+  background: #fff;
+}
+
+#reset:hover {
+  color: #fff;
+
+  background-color: #1c5b97;
+
+  border: none;
+}
+
+/* ==========================================================================
+  THANK YOU PAGE AND 404 PAGE
+   ========================================================================== */
+
+.additional-page {
+  display: table;
+  width: 100%;
+  height: 100vh;
+
+  text-align: center;
+}
+
+.additional-page h2 {
+  margin-bottom: 30px;
+
+  font-size: 50px;
+}
+
+.additional-page p {
+  font-size: 22px;
+}
+
+#thank-you-section,
+#not-found-section {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#thank-you-section img,
+#not-found-section img {
+  width: 150px;
+  height: 150px;
+}
+
+#thank-you-btn,
+#not-found-btns {
+  margin: 40px 0 0;
+
+  border-radius: 8px;
+}
+
+.home-btn,
+.contact-btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+/* Home button (on thank you page and 404 page)
+   ===================================== */
+
+.home-btn:hover {
+  color: #fff;
+
+  background-color: #1c5b97;
+
+  border-radius: 8px;
+}
+
+/* Contact button (on 404 page)
+   ===================================== */
+
+.contact-btn:hover {
+  background-color: #dc332e;
+  color: #fff;
+
+  border-radius: 8px;
 }
