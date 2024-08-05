@@ -42,9 +42,20 @@
       />
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore Valencia</a></li>
-          <li><a href="contact.html" class="active">Contact Us</a></li>
+          <li><a href="index.html" aria-label="Home page">Home</a></li>
+          <li>
+            <a href="explore.html" aria-label="Explore Valencia page"
+              >Explore Valencia</a
+            >
+          </li>
+          <li>
+            <a
+              href="contact.html"
+              class="active"
+              aria-label="Contact Us page (current page)"
+              >Contact Us</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -79,11 +90,23 @@
       <div id="contact-form">
         <form action="thank-you.html" method="get">
           <label for="name">* Full Name</label>
-          <input type="text" name="name" id="name" required />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            aria-label="Enter yo name"
+            required
+          />
           <label for="email">* Email</label>
-          <input type="email" name="email" id="email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            aria-label="Enter your email"
+            required
+          />
           <label for="subject">Subject</label>
-          <select name="subject" id="subject">
+          <select name="subject" id="subject" aria-label="Select the subject">
             <option value="Enquiry">Enquiry</option>
             <option value="Feedback">Feedback</option>
             <option value="Other">Other</option>
@@ -95,12 +118,17 @@
             cols="30"
             rows="10"
             placeholder="Write your message here... "
+            aria-label="Write your message here"
             required
           ></textarea>
           <p>* required</p>
           <div class="form-btns">
-            <button type="reset" id="reset">Clear</button>
-            <button type="submit" id="sumbit">Submit</button>
+            <button type="reset" id="reset" aria-label="Clear the form">
+              Clear
+            </button>
+            <button type="submit" id="sumbit" aria-label="Submit the form">
+              Submit
+            </button>
           </div>
         </form>
       </div>

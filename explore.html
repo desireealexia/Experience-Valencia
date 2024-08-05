@@ -43,11 +43,18 @@
 
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" aria-label="Home page">Home</a></li>
           <li>
-            <a href="explore.html" class="active">Explore Valencia</a>
+            <a
+              href="explore.html"
+              class="active"
+              aria-label="Explore Valencia page (current page)"
+              >Explore Valencia</a
+            >
           </li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li>
+            <a href="contact.html" aria-label="Contact Us page">Contact Us</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -81,13 +88,15 @@
           </p>
           <!-- Buttons that link to the attractions and cuisine sections -->
           <div class="explore-btns">
-            <a href="#attractions"
+            <a
+              href="#attractions"
+              aria-label="Go to Attractions section on this page"
               ><img
                 src="assets/icons/landmark.png"
                 alt="Landmark icon"
               />Attractions</a
             >
-            <a href="#cuisine"
+            <a href="#cuisine" aria-label="Go to Cuisine section on this page"
               ><img
                 src="assets/icons/cutlery.png"
                 alt="Cutlery icon"
@@ -113,7 +122,7 @@
             <div class="card">
               <img
                 src="https://cdn.pixabay.com/photo/2015/11/18/16/03/valencia-1049389_1280.jpg"
-                alt="City of Arts and Sciences"
+                alt="Ciudad de las Artes y las Ciencias (City of Arts and Sciences)"
               />
               <div class="card-body">
                 <h4>Ciudad de las Artes y las Ciencias</h4>
@@ -131,7 +140,7 @@
             <div class="card">
               <img
                 src="https://cdn.pixabay.com/photo/2020/01/15/09/09/lonja-4767383_1280.jpg"
-                alt="La Lonja de la Seda"
+                alt="La Lonja de la Seda (The Silk Exchange)"
               />
               <div class="card-body">
                 <h4>La Lonja de la Seda</h4>
@@ -222,7 +231,7 @@
               <!--  Image from Wikipedia [https://en.wikipedia.org/wiki/Horchata] -->
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/d/de/Horchata_de_chufa_2.jpg"
-                alt="Horchata"
+                alt="Horchata and fartons"
               />
               <div class="card-body">
                 <h4>Horchata</h4>
@@ -240,7 +249,7 @@
             <div class="card">
               <img
                 src="https://media-cdn.tripadvisor.com/media/photo-s/03/52/32/9d/valor.jpg"
-                alt="Churros with Chocolate"
+                alt="Churros con Chocolate (churros with chococlate)"
               />
               <!-- Image taken from Tripadvisor website [https://media-cdn.tripadvisor.com/media/photo-s/03/52/32/9d/valor.jpg] -->
               <div class="card-body">
@@ -323,7 +332,15 @@
           </ul>
         </div>
       </div>
-      <p class="copyright-text">&copy; 2024 Experience Valencia</p>
+      <p class="copyright-text">
+        &copy; 2024 Experience Valencia. Icons from
+        <a
+          href="https://www.flaticon.com/ "
+          target="_blank"
+          aria-label="Open link to Flaticon (opens in new tab)"
+          >Flaticon.</a
+        >
+      </p>
     </footer>
   </body>
 </html>
