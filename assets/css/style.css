@@ -31,7 +31,7 @@ body {
   background-color: #fafafa;
 }
 
-/* Adds ease-in transition to all a tags */
+/* Adds ease-in transition to all links */
 
 a {
   transition: background-color 0.3s ease-in;
@@ -208,7 +208,7 @@ footer {
   border-top: 1px solid #000;
 }
 
-/* Code from w3schools.com [https: //www.w3schools.com/howto/howto_css_three_columns.asp] */
+/* Three columns styles adapted from W3Schools: https://www.w3schools.com/howto/howto_css_three_columns.asp */
 
 footer .column {
   float: left;
@@ -269,6 +269,11 @@ footer ul {
 
   font-size: 13px;
   text-align: center;
+}
+
+.copyright-text a {
+  color: #000;
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -386,7 +391,7 @@ footer ul {
   justify-content: center;
 }
 
-/* Code from w3schools.com [https: //www.w3schools.com/howto/howto_css_three_columns.asp] */
+/* Three columns styles adapted from W3Schools: https://www.w3schools.com/howto/howto_css_three_columns.asp */
 
 .preview-column {
   float: left;
@@ -400,7 +405,7 @@ footer ul {
   content: "";
 }
 
-/* Code from w3schools.com [https: //www.w3schools.com/howto/howto_css_cards.asp] */
+/* Cards styles adapted from W3Schools: https://www.w3schools.com/howto/howto_css_cards.asp */
 
 .card {
   display: inline-block;
@@ -438,6 +443,7 @@ footer ul {
 /* ==========================================================================
    CONTACT US PAGE: Contact form
    ========================================================================== */
+
 form {
   width: 60%;
   padding: 25px;
@@ -639,12 +645,13 @@ form p {
   /* Navigation
    ===================================== */
 
-  /* Code from w3schools.com [https: //www.w3schools.com/howto/howto_js_topnav_responsive.asp] */
+  /* Responsive top navigation styles adapted from W3Schools: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 
   nav li a {
-    float: none;
     display: block;
+    float: none;
     width: 100%;
+
     text-align: center;
   }
 
@@ -685,8 +692,8 @@ form p {
 
   .tips-column {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -728,8 +735,8 @@ form p {
   }
   .preview-column {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
 
   #attractions .card,
@@ -820,10 +827,10 @@ form p {
     display: block;
   }
   .preview-column {
-    width: 50%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 50%;
   }
 
   #attractions .card,
