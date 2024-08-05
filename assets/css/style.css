@@ -165,7 +165,7 @@ nav .active {
 
   color: #fff;
 
-  background: rgba(28, 91, 151, 0.95);
+  background: rgba(28, 91, 151, 0.98);
   border-radius: 8px;
 }
 
@@ -406,8 +406,23 @@ textarea {
   border-radius: 4px;
 }
 
+/* Required text
+   ===================================== */
+
+form p {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
+}
+
 /* Sumbit and reset buttons
    ===================================== */
+
+.form-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #sumbit,
 #reset {
