@@ -444,9 +444,7 @@ footer ul {
 /* Google maps
    ===================================== */
 
-#google-maps {
-  width: 100%;
-  height: 500px;
+iframe {
   margin-top: 20px;
 }
 
