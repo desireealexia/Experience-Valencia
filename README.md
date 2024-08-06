@@ -111,59 +111,65 @@ Wireframes were created using [Figma](www.figma.com) to plan the layout and stru
 
 # Features
 
-The website contains five pages, three main pages which can be accessed using the navigation menu, Home page (index.html), Explore Valencia page (explore.html) and Contact Us page (contact.html). The other two pages are a Thank You page (thank-you.html) and a 404 page (404.html). The Thank You page opens when a user submits the form on the Contact Us page while the 404 page opens when a user requests a page that does not exist.
+The website contains five pages: three main pages which can be accessed using the navigation menu, and two additional pages. The main pages are the Home page, Explore Valencia page and Contact Us page. The additional pages are a Thank You page which appears after form submission, and a 404 page which appears when a user requests a non-existent page.
 
 ## All Pages
 
-The website features a responsive design ensuring it looks great on all devices, from mobile to desktop computers. The logo is consistently displayed across all pages to maintain brand identity.
+The website features a responsive design ensuring it looks great on all devices, from mobile phones to desktop computers. Consistent display of the logo across all pages helps maintain brand identity.
 
 ## Main Pages
 
-The main pages include the Home page, Explore Valencia page and Contact page. These pages:
+- **Experience Valencia Logo:** Displayed as a banner above navigation menu, reinforcing brand identity.
+- **Responsive Navigation Menu:** Provides easy access to other parts of the site. On mobile devices, the navigation menu collapses into a vertical format, with each link stacked for easy tapping.
+- **Footer:** Contains the Experience Valencia favicon, a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
 
-- Display the Experience Valencia logo as a banner above the navigation menu.
-- Include a responsive navigation menu for easy access to other parts of the site. On a mobile device, the navigation menu collapses so each navigation links sit under the other.
-- Have a hero section that features an engaging image of L'Umbracle Terraza in the City of Arts and Sciences and introductory text.
-- Include a footer containing the Experience Valencia favicon, text thanking users for visiting the website, social media icon links and copyright text.
+### Home Page (index.html)
 
-## Home Page
-
-- There is an introduction text that provides an overview of Valencia.
-- An essential tips section offers useful information for visitors.
+- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to egage users.
+- **Introduction Text:** Provides an overview of Valencia, highlighting its appeal as a travel destiation.
+- **Essential Tips Section:** Offers practical advice and useful iformation for users, such as modes of transport, weather and local customs.
 
 ## Explore Valencia Page
 
-- The hero section includes a captivating image and introductory text.
-- Buttons are provided to quickly scroll to the attractions and cuisine sections.
-- Detailed information on popular tourist attractions is presented to inform visitors.
-- A showcase of local cuisine highlights the unique flavours of Valencia.
+- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to set the tone for exploring the city
+- **Introduction Text:** Provides an overview of the page, encouraging users to explore the content further.
+- **Quick Navigation Buttons:** Buttons are provided to quickly scroll to the attractions and cuisine sections, enhacing each user experience by providing quick access o relevant content.
+- **Attrattions Section:** Detailed information on popular tourist attractios is presented to inform users. Each attraction includes a brief description and a high-quality image, showcasing places like the City of Arts and Sciences, Valencia Cathedral, The Silk Exchange, and Bioparc Valencia.
+- **Cuisine Section:** A showcase of local cuisine highlights the unique flavors of Valencia. Each dish, such as Paella, Horchata, Churros and Chocolate, and Fideua, is described briefly and paired with an appetising image.
 
 ## Contact Us Page
 
-- The hero section has an inviting image and introductory text.
-- A contact form is provided for visitors to get in touch with the site administrators.
+- **Hero Section:** eatures an captivating image of L'Umbracle Terraza in the City of Arts and Sciences, along with introductory text to invite visitors to get in touch.
+- **Introduction Text:** Details the reasons why users might want to contact Experience Valencia and how they can do it.
+- **Contact Form:** A form is provided for users to get in touch with Experience Valencia. The form includes:
+  - Fields for the user's name, email, subject (enquiry, feedback, or other), and a textarea for users to leave their message.
+  - Required fields for the name, email, and message to ensure that all necessary information is provided.
+  - The subject field is set to default to "enquiry" for user convenience.
+  - A Submit button to send the form, which redirects users to the Thank You page upon successful submission.
+  - A Clear button to reset the form, allowing users to start over if needed.
 
 ## 404 Page
 
-- A message indicates that the page was not found.
-- There is a button that allows users to go back to the Home page.
-- Another button is available to direct users to the Contact Us page.
+- **Error Message:** Clearly indicates that the page was not found, helping users understand what went wrong.
+- **Navigation Buttons:** Two buttons are provided—one to go return to the Home page and another to go to the Contact Us page - helping guide lost users back to relevant content.
 
 ## Thank You Page
 
-- A message thanking the visitor for their submission.
-- A button is provided to take users back to the Home page.
+- **Thank You Message:** A message thanking the user for submitting the form, confirming that their message has been received.
+- **Navigation Buttons:** A button is provided to return users to the Home page, ensuring they can continue exploring the site.
 
 ## Future Features
 
-- **Reviews:** Allow users to leave and read reviews of attractions and cuisine.
-- **Separate pages for each attraction and cuisine:** Provide detailed information on individual attractions and dishes.
-- **Events/festivals:** Include a section for upcoming events and festivals in Valencia.
+- **Reviews:** Allow users to leave and read reviews of attractions and cuisine, providing valuable insights and enhancing user engagement.
+- **Individual Attraction and Cuisine Pages:** Separate pages for each attraction and dish will be created to provide detailed information and better content.
+- **Restaurant Recommendations:** Showcase restaurant recommendations from users, helping other users find the best places to eat in Valencia.
+- **Events and Festivals Section:** Include a section for upcoming events and festivals in Valencia, helping visitors plan their trips around local events.
+- **Interactive Map:** Enhance the Explore Valencia page with a map feature that allows users to get directions easily to different attractions and restaurants, improving their overall experience.
 
 # Accessibility
 
 - **Semantic HTML:** used semantic HTML elements to improve the structure and readability for screen readers.
-- **Clear and consistent Headings and Labels:** designed with clear and consistent headings and labels to aid in navigation.
+- **Clear and Consistent Headings and Labels:** designed with clear and consistent headings and labels to aid in navigation.
 - **Alt Text for Images:** included `alt` text for all images to describe the content for screen readers.
 - **Hover States on Buttons:** implemented hover states on buttons to provide visual feedback for user interactions.
 - **Aria-Labels on Links:** used `aria-label` attributes on links to provide additional context for screen readers.
@@ -235,7 +241,7 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 - Copyright Symbol:
   - Used from [HubSpot](https://blog.hubspot.com/website/html-code-copyright#:~:text=To%20add%20a%20copyright%20symbol,it%20appear%20on%20a%20page).
 
-## Research and Resources
+## Research and resources
 
 - Responsive Design Breakpoints:
   - Used [DEV.to](https://dev.to/linusmwiti21/best-practises-for-building-responsive-design-in-2024-48c4) for common breakpoints in media queries.
