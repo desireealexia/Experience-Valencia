@@ -277,7 +277,7 @@ footer ul {
 }
 
 /* ==========================================================================
-   HOME PAGE: Essential tips section
+   Home page
    ========================================================================== */
 
 #essential-tips {
@@ -336,7 +336,7 @@ footer ul {
 }
 
 /* ==========================================================================
-   EXPLORE VALENCIA PAGE: Attractions and Cuisine sections
+   Explore Valencia page
    ========================================================================== */
 
 /* Buttons
@@ -382,6 +382,7 @@ footer ul {
   margin-right: auto;
   margin-left: auto;
 }
+
 /* Preview Cards
    ===================================== */
 
@@ -755,6 +756,16 @@ form p {
   #cuisine .card-body {
     height: 170px;
   }
+
+  /* 404 AND THANK YOU PAGES
+   ===================================== */
+
+  .not-found-text,
+  .thank-you-text {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* ==========================================================================
@@ -848,5 +859,15 @@ form p {
 
   #cuisine .card-body {
     height: 170px;
+  }
+
+  /* 404 AND THANK YOU PAGES
+   ===================================== */
+
+  .not-found-text,
+  .thank-you-text {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
