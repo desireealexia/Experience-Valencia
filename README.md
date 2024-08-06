@@ -1,10 +1,10 @@
 # Experience Valencia
 
+![Am I Responsive](/assets/design/ev_responsive.png)
+
 Experience Valencia is a comprehensive, user-friendly online guide for tourists visiting Valencia, Spain, providing information on attractions, dining, events, and practical tips. This guide can also be used by nomads, expats and residents in Spain.
 
-[View live website](https://desireealexia.github.io/Experience-Valencia/index.html)
-
-![Am I Responsive](/assets/design/ev_responsive.png)
+### [View Experience Valencia website](https://desireealexia.github.io/Experience-Valencia/index.html)
 
 ## Table of Contents
 
@@ -18,7 +18,6 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
   - [Home Paege](#home-page)
   - [Explore Valencia Page](#explore-valencia-page)
   - [Contact Us Page](#contact-us-page)
-- [Development](#development)
 - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
@@ -27,9 +26,10 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
 - [Deployment](#deployment--local-deployment)
   - [Deployment](#deployment)
   - [Local Deployment](#local-deployment)
-  - [How to Fork](#how-to-fork)
-  - [How to Clone](#how-to-clone)
 - [Credits](#credits)
+  - [Code](#code)
+  - [Media](#media)
+  - [Content](#content)
 
 ## UX
 
@@ -117,42 +117,88 @@ Wireframe of Contact Us page:
 
 - Used semantic HTML
 - Designed with clear and consistent headings and labels
-- Included alt text for all images
+- Included `alt` text for all images
+- used hover states on buttons or visual feedback
+- Used `aria-label` on links
 - Implemented keyboard navigation for better accessibility
 - Ensure text contrast meets accessibilty standards using the [Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/?n=Off-White&n=Black&n=White&n=Yellow&n=Blue&n=Red&v=FAFAFA&v=000000&v=FFFFFF&v=FFCB47&v=1C5B97&v=DC332E).
-  ![Accessibile Colour Palette](/assets/design/ev_colour-accessibility.png)
+
+![Accessibile Colour Palette](/assets/design/ev_colour-accessibility.png)
 
 ## Features
+
+The main pages on this website are Home, Explore Valencia and Contact Us, in addition to a Thank You and 404 page.
 
 ### All Pages
 
 - responsive design ensuring that the site looks great on all devices
-- consistent navigation menu across all pages
+- logo
 
 ### Home Page
 
+- logo as banner
+- navigation menu
+- footer
+- Hero image and text
+- introduction text
+- essentia tips
+
 ### Explore Valencia Page
 
+- logo as banner
+- navigation menu
+- footer
+- Hero image and text
+- introduction text
+- buttons to scroll to attractions and cuisine sections
+- attractions
+- cuisine
+- map
+
 ### Contact Us Page
+
+- logo as banner
+- navigation menu
+- footer
+- Hero image and text
+- introduction text
+- contact form
+
+### 404 Page
+
+- logo
+- button to go back to home page
+- button to go to contact us page
+
+### Thank You Page
+
+- logo
+- button to go back to home page
+
+### Future Features
+
+- reviews
+- seperate pages for each attraction and cuisine
+- events/festivals
 
 ## Technologies Used
 
 ### Languages
 
-- HTML5 for structure
-- CSS3 for styling
+- **HTML5** for structure
+- **CSS3** for styling
 
 ### Frameworks, Libraries & Programmes Used
 
-- Figma to create wireframes
-- Canva to create logo and icon
-- Visual Studio Code as an IDE
-- Google Fonts to import fonts into CSS file to be used thoughout project
-- Font Awesome to add social media links in footer
-- Flaticon to download the icons used on Home page
-- Git for version control
-- GitHub used to store project code
-- GitHub Pages to deploy website
+- **Figma** to create wireframes
+- **Canva** to create logo and icon
+- **Visual Studio Code** as an IDE
+- **Google Fonts** to import fonts into CSS file to be used thoughout project
+- **Font Awesome** to add social media links in footer
+- **Flaticon** to download the icons used on Home page
+- **Git** for version control
+- **GitHub** used to store project code
+- **GitHub Pages** to deploy website
 
 ## Testing
 
@@ -181,10 +227,6 @@ This website was deployed using GitHub pages. Here are the steps of depoyment:
 4. In your terminal type `git clone`, and then paste the link
 5. Press Enter and your local clone will be created
 
-### How to Fork
-
-### How to Clone
-
 ## Credits
 
 ### Code
@@ -199,19 +241,30 @@ This website was deployed using GitHub pages. Here are the steps of depoyment:
 
 - Styling for responsive top navigation adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp).
 
+- Copyright symbol from [HubSpot](https://blog.hubspot.com/website/html-code-copyright#:~:text=To%20add%20a%20copyright%20symbol,it%20appear%20on%20a%20page).
+
+### Research and resorces
+
+- Used [DEV.to](https://dev.to/linusmwiti21/best-practises-for-building-responsive-design-in-2024-48c4) to get common breakpoints for media queries.
+
+- Used the CSS Declaration Order from Kraken Technologies' [public-conventions repository](https://github.com/octoenergy/public-conventions/blob/main/conventions/css.md#declaration-order) on GitHub o ensure consistency in my style.css file.
+
 ### Media
 
 #### Images
 
-- Hero section image of L'Umbracle Terraza (City of Arts and Sciences) souurced from Pixabay.
+- Hero section image of L'Umbracle Terraza (City of Arts and Sciences) sourced from [Pixabay](https://pixabay.com/).
 
 - Explore Valencia page images sourced from the following websites:
+
   - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange and Paella.
   - [24/7 Valencia](https://247valencia.com/): Valencia Cathedral
   - [Visit Valencia](https://www.visitvalencia.com/): Bioparc Valencia
   - [Wikipedia](https://en.wikipedia.org/wiki): Horchata
   - [Tripadvisor](https://www.tripadvisor.co.uk/): Churros and Chocolate
   - [Tom Press](https://www.tompress.co.uk/): Fideua
+
+- The Google Maps on the Explore Valencia page was create by the developer
 
 #### Icons
 
