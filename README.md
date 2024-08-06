@@ -4,7 +4,7 @@
 
 Experience Valencia is a comprehensive, user-friendly online guide for tourists visiting Valencia, Spain, providing information on attractions, dining, events, and practical tips. This guide can also be used by nomads, expats and residents in Spain.
 
-### [View Experience Valencia website](https://desireealexia.github.io/Experience-Valencia/index.html)
+#### [View Experience Valencia website](https://desireealexia.github.io/Experience-Valencia/index.html)
 
 ## Table of Contents
 
@@ -72,10 +72,10 @@ As a frequent visitor, I want:
 
 #### Colour Palette
 
-I created a palette inspired by the Flag of the [Valencian Community](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDltCMJWOwD_TXM0lBRmdTQM0RO9Ol97DFQ&s).
+The colour palette was chose to reflect the Flag of the [Valencian Community](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDltCMJWOwD_TXM0lBRmdTQM0RO9Ol97DFQ&s).
 Colour palette was created using [Coolors](https://coolors.co/?home).
 
-- **Background:** Off-white colour (#FAFAFA)afa (off-white)
+- **Background:** Off-white (#FAFAFA)
 - **Text:** Black (#000) and White (#FFF)
 - **Primary colour:** Blue (#1C5B97)
 - **Secondary colour:** Yellow (#FFCB47)
@@ -121,7 +121,7 @@ Wireframe of Contact Us page:
 - used hover states on buttons or visual feedback
 - Used `aria-label` on links
 - Implemented keyboard navigation for better accessibility
-- Ensure text contrast meets accessibilty standards using the [Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/?n=Off-White&n=Black&n=White&n=Yellow&n=Blue&n=Red&v=FAFAFA&v=000000&v=FFFFFF&v=FFCB47&v=1C5B97&v=DC332E).
+- Ensure text contrast meets accessibilty standards using the [Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/?n=Off-White&n=Black&n=White&n=Yellow&n=Blue&n=Red&v=FAFAFA&v=000000&v=FFFFFF&v=FFCB47&v=1C5B97&v=DC332E)
 
 ![Accessibile Colour Palette](/assets/design/ev_colour-accessibility.png)
 
@@ -233,7 +233,7 @@ This website was deployed using GitHub pages. Here are the steps of depoyment:
 
 - Code for columns and cards was adpated from my [Portfolio Project](https://gitshub.com/desireealexia/my-portfolio/blob/main/home.html). This code was used in the essential tips section on the Home page, attractions and cuisine sections on the Explore Valencia page and in the footer.
 
-- Adpated code from [GeeksforGeeks]() and [Akash Rajendra's]() Codepen to structure and style the 404 page. To mainain consistency throughout website, I used the same structure and styling for the Thank You page.
+- Adpated code from [GeeksforGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css) and [Akash Rajendra's](https://codepen.io/akashrajendra/pen/JKKRvQ) Codepen to structure and style the 404 page. To mainain consistency throughout website, I used the same structure and styling for the Thank You page.
 
 - Styling for three columns adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp).
 
@@ -273,4 +273,4 @@ This website was deployed using GitHub pages. Here are the steps of depoyment:
 
 ### Content
 
-Content for the website was writter by developer and ChatGPT.
+- Content for the website was writter by developer and ChatGPT.
