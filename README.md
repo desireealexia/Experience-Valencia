@@ -366,7 +366,7 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 
 ## Research and resources
 
-- **Responsive Design Breakpoints:** Used [DEV.to](https://dev.to/linusmwiti21/best-practises-for-building-responsive-design-in-2024-48c4) for common breakpoints in media queries.
+- **Responsive Design Breakpoints:** Used [Medium](https://medium.com/theymakedesign/breakpoints-in-web-design-4e3b334066e8) for common breakpoints in media queries.
 - **CSS Declaration Order:** Followed conventions from Kraken Technologies' [public-conventions repository](https://github.com/octoenergy/public-conventions/blob/main/conventions/css.md#declaration-order) on GitHub to ensure consistency in the `style.css` file.
 
 ## Media
@@ -376,11 +376,12 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 - **Logo and Favicon:** Created by developer using Canva.
 - **Hero Section:** Image of L'Umbracle Terraza (City of Arts and Sciences) sourced from [Pixabay](https://pixabay.com/).
 - **Explore Valencia Page:** Images sourced from:
-  - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange, Elephants at the Bioparc Valencia, Dideua
+  - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange, Elephants at the Bioparc Valencia
   - [Unsplash](https://unsplash.com/): Valencia Cathedral, Churros and Chocolate
   - [Pexels](https://www.pexels.com/): Paella
   - [Flickr (Trevor Huxham)](https://www.flickr.com/photos/ferrariguy90/8561141839): Horchata
   - [Tripadvisor](https://www.tripadvisor.co.uk/): Churros and Chocolate
+  - [Wickimedia Commons](https://commons.wikimedia.org/): Agua de Valencia
 
 ### Icons
 
