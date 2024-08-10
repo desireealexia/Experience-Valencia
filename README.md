@@ -301,37 +301,50 @@ Finding:
 
 ## Manual Testing
 
-|   Action   | Expectation |  Pass/Fail  |
-| :--------: | :---------: | :---------: |
-|   Banner   |             | Here's this |
-| Navigation |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
-|   Header   |    Title    | Here's this |
-| Paragraph  |    Text     |  And more   |
+|            Action            |                                   Expectation                                    | Pass/Fail |
+| :--------------------------: | :------------------------------------------------------------------------------: | :-------: |
+|            Header            |                         Responsive to different screens                          |   Pass    |
+|        Logo in Banner        |                       Click logo and take you to Home Page                       |   ----    |
+|       Navigation Menu        |              Active page is yellow, resposive to different screens               | And more  |
+|       Naigation - Home       |       Takes you to Home page, red when hovered over and yellow when active       |   Pass    |
+| Naigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
+|    Naigation - Contact Us    |    Takes you to Contact Us page, red when hovered over and yellow when active    |   Pass    |
+|         Hero Section         |                         Responsive to different screens                          |   Pass    |
+|        Intro section         |                         Responsive to different screens                          |   Pass    |
 
 ## Troubleshooting
 
 ### Background Image Not Appearing
 
-- **Issue:** The background image for the hero section was not appearing on any of the pages after converting all images to .webp formats. The problem was identified as being related to the file path used for the background image in the CSS. Despite multiple attempts to correct the path, the image did not display as expected.
-- **Resolution:** After researching similar issues online, I found a solution on [Stack Overflow](https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css) here others had faced the same problem. It was determined that the file path needed to be placed in quotation marks. Implementing this solution resolved the issue, and the background image displayed correctly across all pages.
+**Issue:** The background image for the hero section was not appearing on any of the pages after converting all images to .webp formats. The problem was identified as being related to the file path used for the background image in the CSS. Despite multiple attempts to correct the path, the image did not display as expected.
+**Resolution:** After researching similar issues online, I found a solution on [Stack Overflow](https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css) here others had faced the same problem. It was determined that the file path needed to be placed in quotation marks. Implementing this solution resolved the issue, and the background image displayed correctly across all pages.
+
+### Hero Section Text Not Centering
+
+**Issue:** The hero section text would not center ane kept staying at the top of the `div`. After many attempts at centering the text, it was eventually centered but split into two columns.The problem was resolved with guidance from my mentor. The issue was related to CSS properties used for alignment and layout.
+**Resolution:** The solution involved using Flexbox to center the text vertically and horizontally, and adjusting height properties. The following CSS was used:
+
+```
+.hero-bg {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 60%;
+  max-height: 500px;
+```
+
+### Images Not Fitting on Explore Valencia Page
+
+**Issue:** Images of attractions and cuisine on the Explore Valencia page did not fit properly within their containers. The images were not scaling correctly to fit their containers.
+
+**Resolution:** The solution was found on [StackOverflow](https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional) and involved using `object-fit: cover` to ensure the images covered the container without distortion.
+
+### Contact Form Redirecting to Error Page
+
+**Issue:** After creating the `thank-you.html` page and connecting it to the contact form using the `action` attribute, testing the form resulted in an error page. The form used the POST method, which was not suitable as there was no database connected to handle the request.
+
+**Resolution:** The HTTP method was changed from POST to GET to resolve the issue.
 
 # Deployment & Local Deployment
 
