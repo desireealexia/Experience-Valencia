@@ -326,7 +326,12 @@ Finding:
 |   Header   |    Title    | Here's this |
 | Paragraph  |    Text     |  And more   |
 
-## Trouble Shooting & Refinmet
+## Troubleshooting
+
+### Background Image Not Appearing
+
+- **Issue:** The background image for the hero section was not appearing on any of the pages after converting all images to .webp formats. The problem was identified as being related to the file path used for the background image in the CSS. Despite multiple attempts to correct the path, the image did not display as expected.
+- **Resolution:** After researching similar issues online, I found a solution on [Stack Overflow](https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css) here others had faced the same problem. It was determined that the file path needed to be placed in quotation marks. Implementing this solution resolved the issue, and the background image displayed correctly across all pages.
 
 # Deployment & Local Deployment
 
@@ -364,7 +369,7 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 - **Responsive Top Navigation:** Adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp).
 - **Copyright Symbol:** Used from [HubSpot](https://blog.hubspot.com/website/html-code-copyright#:~:text=To%20add%20a%20copyright%20symbol,it%20appear%20on%20a%20page).
 
-## Research and resources
+## Research and Resources
 
 - **Responsive Design Breakpoints:** Used [Medium](https://medium.com/theymakedesign/breakpoints-in-web-design-4e3b334066e8) for common breakpoints in media queries.
 - **CSS Declaration Order:** Followed conventions from Kraken Technologies' [public-conventions repository](https://github.com/octoenergy/public-conventions/blob/main/conventions/css.md#declaration-order) on GitHub to ensure consistency in the `style.css` file.
