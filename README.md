@@ -132,10 +132,12 @@ Both fonts were imported into the `style.css` file using the Google Fonts servic
 #### Logo and Favicon
 
 - **Logo:** The Experience Valencia logo consists of three vertical rectangles, each featuring a distinct icon: a plane, a suitcase, and a map pin. The rectangles are colored in the colours of the Valencian flag — blue, yellow, and red - used throughout the website. Beneath the rectangles, the text “Experience Valencia” is displayed in a clean, readable font. This logo is prominently featured across all pages to maintain brand identity.
-  <img src="/assets/images/experience_valencia_logo.png" width="300" height="300" alt="Experience Valencia logo">
+
+<img src="/assets/images/experience_valencia_logo.png" width="300" height="300" alt="Experience Valencia logo">
 
 - **Favicon:** The faviccon is a simplfied version of the loo, ommittingthe text and featring the three vertical rectangle with the icons. It appears in the browser tab to provide a consistent branding experience.
-  <img src="/assets/images/experience_valencia_icon.png" width="300" height="300" alt="Experience Valencia favicon">
+
+<img src="/assets/images/experience_valencia_icon.png" width="300" height="300" alt="Experience Valencia favicon">
 
 ## Wireframes
 
@@ -147,19 +149,19 @@ Initially, I designed wireframes for three main pages: the Home page, the Explor
 
 The original wireframe for this page included a section dedicated to visitor tips and advice. Although it was a useful idea, I ultimately decided to merge this content into the Home page for simpicity and better flow.
 
-![Image of Essential Tips Page wireframe](/assets/design/wireframes/wireframe_essential_tips.png)
+<img src="/assets/design/wireframes/wireframe_essential_tips.png" alt="Image of Essential Tips page wireframe (not implemented on website)" width="500">
 
 ### Home Page Wireframe:
 
 This Home Page was adjusted to include the essential tips directly on the page, providing users with an introduction to Valencia and essential tips in one place.
 
-![Image of Home Page wireframe]()
+<img src="" alt="Image of Home page wireframe" width="500">
 
 ### Explore Valencia Page Wireframe:
 
 The Explore Valencia wireframe focused on showcaasing popular attractions and local cuisine.
 
-![Image of Explore Valencia Page wireframe](/assets/design/wireframes/wireframe_explore.png)
+<img src="/assets/design/wireframes/wireframe_explore.png" alt="Image of Explore Valencia page wireframe" width="500">
 
 These wireframe were created to ensure the design was responsive and looked good on diferent devices. I specifically designed them for three device sizees:
 
@@ -241,7 +243,7 @@ Ensuring accessibiliy is a fundamental aspect of creatingg an inclusive and user
 - **Keyboard Navigation:** All interactive elements are accessible via keyboard navigatio. Users can tab throuh links, form fields and buttons, and use the Enter key to activat them.
 - **Text Contrast:** Verified that text and background colour combinations meet accessibility standards using the Accessible Colour Palette Builder and WebAIM Contrast Checker. This ensures sufficient contast ratios for readability, especially for users with low vision or colour blindness.
 
-<img src="/assets/design/ev_colour-accessibility.png" alt="Accessible colour palette for text contrast" width="400">
+<img src="/assets/design/ev_colour-accessibility.png" alt="Accessible colour palette for text contrast" width="600">
 
 - **Focus Indicatiors:** Applied clear focus indicators (such as colours) on interactivee elements to help users who navigate via keyboard, this heps users know which element is currently focused.
 - **Responsive Design:** Website is designed to be responsive and functional on various devicees and screen sizes. This includes making sure that all interactive elements and content are accessible and usable on mobile devices, tablets and desktop computers.
@@ -271,6 +273,59 @@ This project utilised a range of modern web development technologies, tools and 
 - **[GitHub Pages](https://pages.github.com/):** Used to deploy th websit, making it accessible to users online.
 
 # Testing
+
+## Cross-Browser Compatibility
+
+Browsers Tests: Chrome, Safari and Edge
+Findings:
+
+## Responsive Design
+
+List devices: iPhone 13 Pro, iPad, Macbook Air 13" and 23" monitor
+Finding:
+
+## Solved Bugs
+
+## Automated Testing
+
+### W3C HTML Validator
+
+### W3C CSS Validator
+
+## Performance Testing
+
+## Acessibility Testing
+
+## SEO
+
+## Manual Testing
+
+|   Action   | Expectation |  Pass/Fail  |
+| :--------: | :---------: | :---------: |
+|   Banner   |             | Here's this |
+| Navigation |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+|   Header   |    Title    | Here's this |
+| Paragraph  |    Text     |  And more   |
+
+## Trouble Shooting & Refinmet
 
 # Deployment & Local Deployment
 
@@ -320,12 +375,11 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 - **Logo and Favicon:** Created by developer using Canva.
 - **Hero Section:** Image of L'Umbracle Terraza (City of Arts and Sciences) sourced from [Pixabay](https://pixabay.com/).
 - **Explore Valencia Page:** Images sourced from:
-  - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange, and Paella
-  - [24/7 Valencia](https://247valencia.com/): Valencia Cathedral
-  - [Visit Valencia](https://www.visitvalencia.com/): Bioparc Valencia
-  - [Wikipedia](https://en.wikipedia.org/wiki): Horchata
+  - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange, Elephants at the Bioparc Valencia, Dideua
+  - [Unsplash](https://unsplash.com/): Valencia Cathedral, Churros and Chocolate
+  - [Pexels](https://www.pexels.com/): Paella
+  - [Flickr (Trevor Huxham)](https://www.flickr.com/photos/ferrariguy90/8561141839): Horchata
   - [Tripadvisor](https://www.tripadvisor.co.uk/): Churros and Chocolate
-  - [Tom Press](https://www.tompress.co.uk/): Fideua
 
 ### Icons
 
