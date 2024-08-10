@@ -264,6 +264,7 @@ This project utilised a range of modern web development technologies, tools and 
 - **[Coolors](https://coolors.co/):** Used to create the website's colour palette, ensuring that they reflected the colours of the Valencian Community flag and worked well together.
 - **[Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/)**: This tool was essential in confirming that the chosen combinations met accessibility standards, particularly regarding text contrast.
 - **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)**: Used to verify the contrast ratios between background and foregrund colours, ensurin that the website's text is legible and meets accessibility guidelines.
+- **[Cloud Coverter](https://cloudconvert.com/) and [Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp
 - **[Google Fonts](https://fonts.google.com/):** Provided access to the typograpy used throughout the website.
 - **[Font Awesome](https://fontawesome.com/):** Integrated to include vector icons on the webste specifically for social media links in te footer.
 - **[Flaticon](https://www.flaticon.com/):** Icons used on the Home page and Explore Valencia page were sourced from Flaticon. These icons helped visually convery information and enhance user engagment.
