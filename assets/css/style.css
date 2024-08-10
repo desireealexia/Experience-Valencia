@@ -136,7 +136,7 @@ nav .active {
   width: 100%;
   height: 600px;
 
-  background: url(/assets/images/lumbracle-terraza.webp);
+  background: url(assets/images/lumbracle-terraza.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
