@@ -115,6 +115,8 @@ For this website, typography plays a cruicial role in enchancing readability and
 - **Headings:** The font used for heading is _League Spartan_, a bold sans-serif font. This font was chosen for its modern and clean appearance, making it ideal for headings. It provides a strong visual hierachy and helps highlight important sections and headings on the website.
 - **Body text:** The body text uses _Quicksand_, a sans-serif font selected for its readability and friendly, rounded design. This font ensures that the content is easy t read on all devices and provides a pleasant reading experience.
 
+<img src="/assets/design/google_fonts.png" alt="Google Fonts used on the website" width="400">
+
 Both fonts were imported into the `style.css` file using the Google Fonts service, ensurin that they are cosistently appealied across all pages; this also help with faster load times and better performance.
 
 ### Imagery
@@ -185,13 +187,50 @@ The website features a responsive design ensuring it looks great on all devices,
 
 - **Experience Valencia Logo:** Displayed as a banner above navigation menu, reinforcing brand identity.
 - **Responsive Navigation Menu:** Provides easy access to other parts of the site. On mobile devices, the navigation menu collapses into a vertical format, with each link stacked for easy tapping.
+
+#### Logo and Navigation on Mobile
+
+<img src="/assets/screenshots/features/logo_navigation-mobile.png" alt="Logo and Navigation on mobile">
+
+#### Logo and Navigation on Tablet
+
+<img src="/assets/screenshots/features/logo_navigation-tablet.png" alt="Logo and Navigation on tablet">
+
+#### Logo and Navigation on Deskop
+
+<img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Logo and Navigation on desktop">
+
 - **Footer:** Contains the Experience Valencia favicon, a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
+
+|                                      Mobile                                       |                                      Tablet                                      |                                       Desktop                                       |
+| :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/footer-mobile.png" alt="Footer on mobile"> | <img src="/assets/screenshots/features/foote-tablet.png" alt="Footer on tablet"> | <img src="/assets/screenshots/features/footer-desktop.png" alt="Footer on desktop"> |
+
+#### Footer on Mobile
+
+<img src="/assets/screenshots/features/footer-mobile.png" alt="Footer on mobile">
+
+#### Footer on Tablet
+
+<img src="/assets/screenshots/features/foote-tablet.png" alt="Footer on tablet">
+
+#### Footer on Deskop
+
+<img src="/assets/screenshots/features/footer-desktop.png" alt="Footer on desktop">
 
 ## Home Page (index.html)
 
 - **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to egage users.
+
+<img src="/assets/screenshots/features/home_hero-desktop.png" alt="Home page hero section on desktop">
+
 - **Introduction Text:** Provides an overview of Valencia, highlighting its appeal as a travel destiation.
+
+<img src="/assets/screenshots/features/home_introduction-desktop.png" alt="Home page introduction text on desktop">
+
 - **Essential Tips Section:** Offers practical advice and useful iformation for users, such as modes of transport, weather and local customs.
+
+<img src="" alt="Essential tips section on desktop">
 
 ## Explore Valencia Page
 
