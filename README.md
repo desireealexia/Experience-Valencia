@@ -43,11 +43,11 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
 
 ## Project Goals
 
-The primary goal of the Experience Valencia website is to provide a comprehensive and user-friendly guide to Valencia, Spain. The project aims to achieve the following goals:
+The primary goal of the Experience Valencia website is to provide a comprehensive and user-friendly guide to Valencia, Spain. The project aims to achieve the following objectives:
 
-- **Provide Comprehensive Information:** Offer detailed information on Valencia's top attractions and local cuisine to help users plan their trips effectivey.
-- **Ensure Ease of Navigation:** Design a website that is easy to navigate with clear and intuative layout.
-- **Visually Appealing and Exgaging Experience:** Develop a visually appealin website with a modern design and use high-quality images and engagin content.
+- **Provide Comprehensive Information:** Offer detailed information on Valencia's top attractions and local cuisine to help users plan their trips effectively.
+- **Ensure Ease of Navigation:** Design a website that is easy to navigate with a clear and intuitive layout.
+- **Visually Appealing and Engaging Experience:** Develop a visually appealing website with a modern design and use high-quality images and engaging content.
 - **Offer Essential Tips:** Provide essential tips for users to enhance their visit.
 
 ## User Stories
@@ -56,10 +56,10 @@ The primary goal of the Experience Valencia website is to provide a comprehensiv
 
 As the client, I want to achieve the following:
 
-- **Increase Awareness:** Raise awarenes of Valencia as a premier travel destination to encouraage more tourists to pick Valencia.
+- **Increase Awareness:** Raise awareness of Valencia as a premier travel destination to encourage more tourists to pick Valencia.
 - **Easy Navigation:** Ensure users can navigate the website effortlessly.
 - **SEO Optimisation:** Optimise website for SEO to rank high in search engines and attract more visitors.
-- **Responsive and Accessible Design:** Have the website be responsive and accessible to users on different devices and with different abilities.
+- **Responsive and Accessible Design:** Have the website be responsive and accessible to users on different devices and abilities.
 
 ### Visitor Goals
 
@@ -67,12 +67,12 @@ As a first-time visitor, I want:
 
 - **Discover Top Attractions:** To learn about the top attractions in Valencia so that I can plan an enjoyable sightseeing itinerary.
 - **Easy Navigation:** To navigate the website easily with a clean layout that helps me find the information I need without hassle.
-- **Mobile Accessibility:** To access the website on my mobile device with quick loading times and a resposive design that adapts to differnt screen sizes.
+- **Mobile Accessibility:** To access the website on my mobile device with quick loading times and a responsive design that adapts to different screen sizes.
 
 As a returning visitor, I want:
 
 - **Explore Local Cuisine:** To discover the best local cuisine so I can experience authentic Valencian flavours.
-- **Access Essential Tips:** To easily find essential tips and local insights that will help me have a better experience in Valencia.
+- **Access Essential Tips:** To easily find essential tips and local insights to help me have a better experience in Valencia.
 
 As a frequent visitor, I want:
 
@@ -83,107 +83,107 @@ As a frequent visitor, I want:
 
 ### Colour Palette
 
-The colour pallete for the Experience Valeencia website was selected to relect the vibrant and dynamic essence of Valencia while ensuring readabiliy and visual harmony. The palette is inspired by the colours of the [Valencian Community Flag](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDltCMJWOwD_TXM0lBRmdTQM0RO9Ol97DFQ&s) and have been strategically applied across various elements of the website.
+The colour palette for the Experience Valencia website was selected to reflect the vibrant and dynamic essence of Valencia while ensuring readability and visual harmony. The palette is inspired by the colours of the [Valencian Community Flag](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDltCMJWOwD_TXM0lBRmdTQM0RO9Ol97DFQ&s) and has been strategically applied across various elements of the website.
 
 <img src="/assets/design/ev_colour-palette.png" alt="Experience Valencia colour palette made in Coolors">
 
-Below is a detailed description of each color and its usage:
+Below is a detailed description of each colour and its usage:
 
 #### Background Colour - Off-white (#FAFAFA):
 
-- This light shade is used for the website's background, enhances content visability and reduces eye strain.
+- This light shade is used for the website's background, enhances content visibility and reduces eye strain.
 
 #### Text Colours - Black (#000) and White (#FFF):
 
-- Black is used for primary text elements such as body text and heading. It ensures high contrast against background, making content clear and easy to read.
-- White is applied to text on darker backgrounds or as hihligghts to ensure visibility and contrast especially in secions with the primary and accent colours.
+- Black is used for primary text elements such as body text and heading. It ensures high contrast against the background, making content clear and easy to read.
+- White is applied to text on darker backgrounds or as highlights to ensure visibility and contrast especially in sections with the primary and accent colours.
 
 #### Primary Colour - Blue (#1C5B97)
 
 - **Navigation Menu:** The blue is used for the navigation bar, creating a strong and consistent brand identity.
-- **Hero Section Background:** A slightly less opaque blue provies a striking backgroun for the hero section, adding depth and emphasis to the introductory content.
+- **Hero Section Background:** A slightly less opaque blue provides a striking background for the hero section, adding depth and emphasis to the introductory content.
 - **Hover State for Clear Button:** Applied to the hover state of the _Clear_ button on the Contact Us form, offering visual feedback.
 - **Hover State for Return to Home Page Button:** Applied to the hover state of the _Return to Home page_ button on the 404 and Thank You pages.
 
 #### Secondary Colour - Yellow (#FFCB47)
 
 - **Focused Navigation Link:** This bright yellow is used for focused navigation links, drawing attention to the current page and improving navigation clarity.
-- **Essential Tips Cards:** A slightly less opaque yellow is used for the Essential Tips cards on the Home page, add a warm touch to the section without overwhelming the design.
+- **Essential Tips Cards:** A slightly less opaque yellow is used for the Essential Tips cards on the Home page, adding a warm touch to the section without overwhelming the design.
 - **Hover State for Sumbit Button:** Applied to the hover state of the _Sumbit_ button on the Contact Us form, creating a noticeable interactive effect.
 
 #### Accent Colour - Red (#DC332E)
 
-- **Navigation Menu Hover:** Red is used for the hhover ffect on naviation menu items, providing a vibrant and noticeable change.
-- **Footer Social Media Icons Hover:** Used for he hover state of social media link icons in the footer, ensuring they catch he user's eye.
-- **Explore Valencia Page Buttons:** Use for the attractos and cuisine buttons on the Explore Valencia page, creating a strong visul impact and guiding user interaction.
-- **Contact Us Button Hover:** Applied to the hover state of the _Contact Us_ buton on the 404 and Thank You pages, making it stand out as interactive.
+- **Navigation Menu Hover:** Red is used for the hover effect on navigation menu items, providing a vibrant and noticeable change.
+- **Footer Social Media Icons Hover:** Used for the hover state of social media link icons in the footer, ensuring they catch the user's eye.
+- **Explore Valencia Page Buttons:** Used for the attractions and cuisine buttons on the Explore Valencia page, creating a strong visual impact and guiding user interaction.
+- **Contact Us Button Hover:** Applied to the hover state of the _Contact Us_ button on the 404 and Thank You pages, making it stand out as interactive.
 
 ### Typography
 
-For this website, typography plays a cruicial role in enchancing readability and visual appeal. Google Fonts was utilised to ensure high-quality and consistent typography across all pages.
+For this website, typography plays a crucial role in enhancing readability and visual appeal. Google Fonts was utilised to ensure high-quality and consistent typography across all pages.
 
-- **Headings:** The font used for heading is _League Spartan_, a bold sans-serif font. This font was chosen for its modern and clean appearance, making it ideal for headings. It provides a strong visual hierachy and helps highlight important sections and headings on the website.
-- **Body text:** The body text uses _Quicksand_, a sans-serif font selected for its readability and friendly, rounded design. This font ensures that the content is easy t read on all devices and provides a pleasant reading experience.
+- **Headings:** The font used for heading is _League Spartan_, a bold sans-serif font. This font was chosen for its modern and clean appearance, making it ideal for headings. It provides a strong visual hierarchy and helps highlight important sections and headings on the website.
+- **Body text:** The body text uses _Quicksand_, a sans-serif font selected for its readability and friendly, rounded design. This font ensures that the content is easy to read on all devices and provides a pleasant reading experience.
 
 <img src="/assets/design/google_fonts.png" alt="Google Fonts used on the website">
 
-Both fonts were imported into the `style.css` file using the Google Fonts service, ensurin that they are cosistently appealied across all pages; this also help with faster load times and better performance.
+Both fonts were imported into the `style.css` file using the Google Fonts service, ensuring that they are consistently applied across all pages; this also helps with faster load times and better performance.
 
 ### Imagery
 
 #### Main Images
 
-- **Hero Image:** Features an image of L'Umbracle Terraza, part of the City ofArts and Sciences, to immediately capture the visitor's attention and set the tone for the website.
-- **Explore Valencia Page:** Includes images of key attractions sch as the City of Arts and Sciences, The Silk Exchange, and popular local dishes. These images were selected to hghight the city's diverse cultural and culinary delights.
+- **Hero Image:** Features an image of L'Umbracle Terraza, part of the City of Arts and Sciences, to immediately capture the visitor's attention and set the tone for the website.
+- **Explore Valencia Page:** Includes images of key attractions such as the City of Arts and Sciences, The Silk Exchange, and popular local dishes. These images were selected to highlight the city's diverse cultural and culinary delights.
 
 #### Icons
 
-- **Social Media Icons:** Used in the footer to ensure a consistent and professionl look throughout the website.
-- **Home Page and Explore Valencia Page Icons:** Represent different selctions and features providig a chohesive visual language across the site.
+- **Social Media Icons:** Used in the footer to ensure a consistent and professional look throughout the website.
+- **Home Page and Explore Valencia Page Icons:** Represent different selections and features providing a cohesive visual language across the site.
 
 #### Logo and Favicon
 
-- **Logo:** The Experience Valencia logo consists of three vertical rectangles, each featuring a distinct icon: a plane, a suitcase, and a map pin. The rectangles are colored in the colours of the Valencian flag — blue, yellow, and red - used throughout the website. Beneath the rectangles, the text “Experience Valencia” is displayed in a clean, readable font. This logo is prominently featured across all pages to maintain brand identity.
+- **Logo:** The Experience Valencia logo consists of three vertical rectangles, each featuring a distinct icon: a plane, a suitcase, and a map pin. The rectangles are coloured in the colours of the Valencian flag — blue, yellow, and red - used throughout the website. Beneath the rectangles, the text “Experience Valencia” is displayed in a clean, readable font. This logo is prominently featured across all pages to maintain brand identity.
 
 <img src="/assets/images/experience_valencia_logo.webp" width="300" height="300" alt="Experience Valencia logo">
 
-- **Favicon:** The faviccon is a simplfied version of the loo, ommittingthe text and featring the three vertical rectangle with the icons. It appears in the browser tab to provide a consistent branding experience.
+- **Favicon:** The favicon is a simplified version of the logo, omitting the text and featuring the three vertical rectangles with the icons. It appears in the browser tab to provide a consistent branding experience.
 
 <img src="/assets/images/experience_valencia_favicon.webp" width="300" height="300" alt="Experience Valencia favicon">
 
 ## Wireframes
 
-I began the design process by sketching intial concepts on paper. This allowed me to explore various layouts quickly and refine the structure before movng to dgital tools. Once I was satisfied with the paper sketches, I digitalised them using Figma to create more polished wireframes. These wireframes were essntial in planning the layout and structure of each page and ensuring that the design was responsive across different device sizes.
+I began the design process by sketching initial concepts on paper. This allowed me to explore various layouts quickly and refine the structure before moving to digital tools. Once I was satisfied with the paper sketches, I digitalised them using Figma to create more polished wireframes. These wireframes were essential in planning the layout and structure of each page and ensuring that the design was responsive across different device sizes.
 
-Initially, I designed wireframes for three main pages: the Home page, the Explore Valencia page, and a Essential Tips page. The Essential Tips page was intende to provide essential information for users. However, as the project evolved, I decided to integrate the content from the Essential Tips page into the Home page, eliminating the need for a seperate page dedicated to essential tips. This adjustment led me to change the ayout of the Home page to accommodate this content and focus the thrid page on contact functionality, resulting in the creation of the Contact Us page.
+Initially, I designed wireframes for three main pages: a Home page, an Explore Valencia page, and an Essential Tips page. The Essential Tips page was intended to provide essential information for users. However, as the project evolved, I decided to integrate the content from the Essential Tips page into the Home page, eliminating the need for a separate page dedicated to essential tips. This adjustment led me to change the layout of the Home page to accommodate this content and focus the third page on contact functionality, resulting in the creation of the Contact Us page.
 
 ### Essential Tips Page Wireframe (Not Implemented):
 
-The original wireframe for this page included a section dedicated to visitor tips and advice. Although it was a useful idea, I ultimately decided to merge this content into the Home page for simpicity and better flow.
+The original wireframe for this page included a section dedicated to visitor tips and advice. Although it was a useful idea, I ultimately decided to merge this content into the Home page for simplicity and better flow.
 
-<img src="/assets/design/wireframes/wireframe_essential_tips.png" alt="Image of Essential Tips page wireframe (not implemented on website)" width="500">
+<img src="/assets/design/wireframes/wireframe_essential_tips.png" alt="Image of Essential Tips page wireframe (not implemented on the website)" width="500">
 
 ### Home Page Wireframe:
 
 This Home Page was adjusted to include the essential tips directly on the page, providing users with an introduction to Valencia and essential tips in one place.
 
-<img src="" alt="Image of Home page wireframe" width="500">
+<img src="/assets/design/wireframes/wireframe_home.png" alt="Image of Home page wireframe" width="500">
 
 ### Explore Valencia Page Wireframe:
 
-The Explore Valencia wireframe focused on showcaasing popular attractions and local cuisine.
+The Explore Valencia wireframe focused on showcasing popular attractions and local cuisine.
 
 <img src="/assets/design/wireframes/wireframe_explore.png" alt="Image of Explore Valencia page wireframe" width="500">
 
-These wireframe were created to ensure the design was responsive and looked good on diferent devices. I specifically designed them for three device sizees:
+These wireframes were created to ensure the design was responsive and looked good on different devices. I specifically designed them for three device sizes:
 
 - Mobile: width 576px
 - Tablet: width 768px
 - Desktop: width 1200px
 
-Since the Contact Us page has a straightforward design, I did not create a wireframe for it. The ppage was planned and implement directly in the development phase, focusing on asimple and effective user interface to facilitate easy communication between users and Experience Valencia.
+Since the Contact Us page has a straightforward design, I did not create a wireframe for it. The page was planned and implemented directly in the development phase, focusing on a simple and effective user interface to facilitate easy communication between users and Experience Valencia.
 
-I also did not crate wireframes for the 404 and Thak You pages as they were not part of my initial project plan. However, after receiving advice from my mentor, Diego, I recognised the importance of including these pages for a better user experience. Since this decision was made late in the project, I did not have wireframes prepared for these pages.
+I also did not create wireframes for the 404 and Thak You pages as they were not part of my initial project plan. However, after receiving advice from my mentor, Diego, I recognised the importance of including these pages for a better user experience. Since this decision was made late in the project, I did not have wireframes prepared for these pages.
 
 # Features
 
@@ -195,7 +195,7 @@ The website features a responsive design ensuring it looks great on all devices,
 
 ## Main Pages
 
-- **Experience Valencia Logo:** Displayed as a banner above navigation menu, reinforcing brand identity.
+- **Experience Valencia Logo:** Displayed as a banner above the navigation menu, reinforcing brand identity.
 - **Responsive Navigation Menu:** Provides easy access to other parts of the site. On mobile devices, the navigation menu collapses into a vertical format, with each link stacked for easy tapping.
 
 |                                                 Mobile                                                  |                                                 Tablet                                                  |                                                  Desktop                                                  |
@@ -210,19 +210,19 @@ The website features a responsive design ensuring it looks great on all devices,
 
 ## Home Page (index.html)
 
-- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to egage users.
+- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to engage users.
 
 <img src="/assets/screenshots/features/home_hero-desktop.png" alt="Home page hero section on desktop">
 
-- **Introduction Text:** Provides an overview of Valencia, highlighting its appeal as a travel destiation.
+- **Introduction Text:** Provides an overview of Valencia, highlighting its appeal as a travel destination.
 
 <img src="/assets/screenshots/features/home_introduction-desktop.png" alt="Home page introduction text on desktop">
 
-- **Essential Tips Section:** Offers practical advice and useful iformation for users, such as modes of transport, weather and local customs.
+- **Essential Tips Section:** Offers practical advice and useful information for users, such as modes of transport, weather and local customs.
 
-|                       Mobile                        |                       Tablet                        |                       Desktop                        |
-| :-------------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------: |
-| <img src="" alt="Essential tips section on mobile"> | <img src="" alt="Essential tips section on tablet"> | <img src="" alt="Essential tips section on desktop"> |
+|                                                     Mobile                                                     |                                                     Tablet                                                     |                                                     Desktop                                                      |
+| :------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/home_essential_tips-mobile.png" alt="Essential tips section on mobile"> | <img src="/assets/screenshots/features/home_essential_tips-tablet.png" alt="Essential tips section on tablet"> | <img src="/assets/screenshots/features/home_essential_tips-desktop.png" alt="Essential tips section on desktop"> |
 
 ## Explore Valencia Page (explore.html)
 
@@ -234,21 +234,23 @@ The website features a responsive design ensuring it looks great on all devices,
 
 <img src="/assets/screenshots/features/explore_introduction-desktop.png" alt="Explore page introduction text on desktop">
 
-- **Quick Navigation Buttons:** Buttons are provided to quickly scroll to the attractions and cuisine sections, enhacing each user experience by providing quick access to relevant content.
+- **Quick Navigation Buttons:** Buttons are provided to quickly scroll to the attractions and cuisine sections, enhancing each user experience by providing quick access to relevant content.
 
-<img src="/assets/screenshots/features/explore_nav_buttons-desktop.png" alt="Explore page navigation buttons on desktop">
+|                                                         Mobile                                                          |                                                          Desktop                                                          |
+| :---------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/explore_nav_buttons-mobile.png" alt="Explore page navigation buttons on mobile"> | <img src="/assets/screenshots/features/explore_nav_buttons-desktop.png" alt="Explore page navigation buttons on desktop"> |
 
-- **Attrattions Section:** Detailed information on popular tourist attractios is presented to inform users. Each attraction includes a brief description and a high-quality image, showcasing places like the City of Arts and Sciences, Valencia Cathedral, The Silk Exchange, and Bioparc Valencia.
+- **Attractions Section:** Detailed information on popular tourist attractions is presented to inform users. Each attraction includes a brief description and a high-quality image, showcasing places like the City of Arts and Sciences, Valencia Cathedral, The Silk Exchange, and Bioparc Valencia.
 
 <img src="/assets/screenshots/features/explore_attractions-desktop.png" alt="Explore page attractions section on desktop">
 
-- **Cuisine Section:** A showcase of local cuisine highlights the unique flavors of Valencia. Each dish, such as Paella, Horchata, Churros and Chocolate, and Fideua, is described briefly and paired with an appetising image.
+- **Cuisine Section:** A showcase of local cuisine highlights the unique flavours of Valencia. Each dish, such as Paella, Horchata, Churros and Chocolate, and Fideua, is described briefly and paired with an appetising image.
 
 <img src="/assets/screenshots/features/explore_cuisine-desktop.png" alt="Explore page cuisine section on desktop">
 
 ## Contact Us Page (contact.html)
 
-- **Hero Section:** Features an captivating image of L'Umbracle Terraza in the City of Arts and Sciences, along with introductory text to invite visitors to get in touch.
+- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Sciences, along with introductory text to invite visitors to get in touch.
 
 <img src="/assets/screenshots/features/contact_hero-desktop.png" alt="Contact page hero section on desktop">
 
@@ -268,7 +270,7 @@ The website features a responsive design ensuring it looks great on all devices,
 
 ## 404 Page (404.html)
 
-- **Error Message:** Clearly indicates that the page was not found, helping users understand what went wrong.
+- **Error Message:** Indicates that the page was not found, helping users understand what went wrong.
 - **Navigation Buttons:** Two buttons are provided—one to go return to the Home page and another to go to the Contact Us page - helping guide lost users back to relevant content.
 
 <img src="/assets/screenshots/features/404_page-desktop.png" alt="404 page on desktop">
@@ -287,49 +289,47 @@ The website features a responsive design ensuring it looks great on all devices,
 - **Restaurant Recommendations:** Showcase restaurant recommendations from users, helping other users find the best places to eat in Valencia.
 - **Events and Festivals Section:** Include a section for upcoming events and festivals in Valencia, helping visitors plan their trips around local events.
 - **Interactive Map:** Enhance the Explore Valencia page with a map feature that allows users to get directions easily to different attractions and restaurants, improving their overall experience.
-- **Multi-Language Support:** Implement a feature to make the website available in multiple languages, allowinng user to viw content in their prreferred languagge and enchaning accessibility for a global audience.
+- **Multi-Language Support:** Implement a feature to make the website available in multiple languages, allowing the user to view content in their preferred language and enabling accessibility for a global audience.
 
 # Accessibility
 
-Ensuring accessibiliy is a fundamental aspect of creatingg an inclusive and user-friendly website. The Experience Valencia website was designed with acccessibility in mind to accommodate users of all abilities and devices.
+Ensuring accessibility is a fundamental aspect of creating an inclusive and user-friendly website. The Experience Valencia website was designed with accessibility in mind to accommodate users of all abilities and devices.
 
-- **Semantic HTML:** Used semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, `<section>` and `<footer>` to structure the content on the website. This improves the wesbite's readability for screen readers and otherassistive technology.
-- **Clear and Consistent Headings and Labels:** Headings are used in hierarchical order - `<h1>` for main titles and `<h2>` for section headings - to create a logical flow of information. This helps users who rely on screen readers to navigate through content efficiently. Form fields and interactive elements include descriptive labels to ensure clarity and usablity for all users.
+- **Semantic HTML:** Used semantic HTML elements, such as `<header>`, `<nav>`, `<main>`, `<section>` and `<footer>` to structure the content on the website. This improves the website's readability for screen readers and other assistive technology.
+- **Clear and Consistent Headings and Labels:** Headings are used in hierarchical order - `<h1>` for main titles and `<h2>` for section headings - to create a logical flow of information. This helps users who rely on screen readers to navigate through content efficiently. Form fields and interactive elements include descriptive labels to ensure clarity and usability for all users.
 - **`alt` Text for All Images:** All images on the website include descriptive `alt` attributes to provide context and information for users who rely on screen readers. This ensures that visual content is accessible to users with visual impairments.
-- **Hover States and Visual Feedback:** Visual feedback, such as hover states on buttons and nteracttive elements is provide to indicate that elements are interactive.
+- **Hover States and Visual Feedback:** Visual feedback, such as hover states on buttons and interactive elements is provided to indicate that elements are interactive.
 - **`aria-label` on Links and Interactive Elements:** Added `aria-label` attributes to interactive elements where necessary to provide additional context for screen readers.
-- **Keyboard Navigation:** All interactive elements are accessible via keyboard navigatio. Users can tab throuh links, form fields and buttons, and use the Enter key to activat them.
-- **Text Contrast:** Verified that text and background colour combinations meet accessibility standards using the Accessible Colour Palette Builder and WebAIM Contrast Checker. This ensures sufficient contast ratios for readability, especially for users with low vision or colour blindness.
+- **Keyboard Navigation:** All interactive elements are accessible via keyboard navigation. Users can tab through links, form fields and buttons, and use the Enter key to activate them.
+- **Text Contrast:** Verified that text and background colour combinations meet accessibility standards using the Accessible Colour Palette Builder and WebAIM Contrast Checker. This ensures sufficient contrast ratios for readability, especially for users with low vision or colour blindness.
 
 <img src="/assets/design/ev_colour-accessibility.png" alt="Accessible colour palette for text contrast">
 
-- **Focus Indicatiors:** Applied clear focus indicators (such as colours) on interactivee elements to help users who navigate via keyboard, this heps users know which element is currently focused.
-- **Responsive Design:** Website is designed to be responsive and functional on various devicees and screen sizes. This includes making sure that all interactive elements and content are accessible and usable on mobile devices, tablets and desktop computers.
+- **Focus Indicators:** Applied clear focus indicators (such as colours) on interactive elements to help users who navigate via keyboard, this helps users know which element is currently focused.
+- **Responsive Design:** Website is designed to be responsive and functional on various devices and screen sizes. This includes making sure that all interactive elements and content are accessible and usable on mobile devices, tablets and desktop computers.
 
 # Technologies Used
-
-This project utilised a range of modern web development technologies, tools and resources to ensure a seamless, responsive and visually appealling website was made.
 
 ## Languages
 
 - **HTML5:** Used for the website's structure and content; HTML5 supports semantic elements which enhances accessibility and improve SEO.
-- **CSS3:** Applied for stylin, layout and provides the abiilty to create responsive designs with media queries.
+- **CSS3:** Applied for styling, and layout and provides the ability to create responsive designs with media queries.
 
 ## Design & Development Tools
 
-- **[Figma](www.figma.com):** Used for creating wirefremas and planning the layout and structure of the website.
+- **[Figma](www.figma.com):** Used for creating wireframes and planning the layout and structure of the website.
 - **[Canva](https://www.canva.com/):** Utilised for designing the Experience Valencia logo and favicon.
 - **[Coolors](https://coolors.co/):** Used to create the website's colour palette, ensuring that they reflected the colours of the Valencian Community flag and worked well together.
 - **[Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/)**: This tool was essential in confirming that the chosen combinations met accessibility standards, particularly regarding text contrast.
-- **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)**: Used to verify the contrast ratios between background and foregrund colours, ensurin that the website's text is legible and meets accessibility guidelines.
+- **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)**: Used to verify the contrast ratios between background and foreground colours, ensuring that the website's text is legible and meets accessibility guidelines.
 - **[Cloud Coverter](https://cloudconvert.com/) and [Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp
 - **[Google Fonts](https://fonts.google.com/):** Provided access to the typograpy used throughout the website.
-- **[Font Awesome](https://fontawesome.com/):** Integrated to include vector icons on the webste specifically for social media links in te footer.
-- **[Flaticon](https://www.flaticon.com/):** Icons used on the Home page and Explore Valencia page were sourced from Flaticon. These icons helped visually convery information and enhance user engagment.
-- **[Visual Studio Code](https://code.visualstudio.com/):** This Integrated Development Environment (IDE) was the primary tool for writing and editing the HTML and CSS code. The use of extensions lik Prettier or code formatting and Live Server for real-time previews significantly enhanced the development workflow.
+- **[Font Awesome](https://fontawesome.com/):** Integrated to include vector icons on the website specifically for social media links in the footer.
+- **[Flaticon](https://www.flaticon.com/):** Icons used on the Home page and Explore Valencia page were sourced from Flaticon. These icons helped visually convey information and enhance user engagement.
+- **[Visual Studio Code](https://code.visualstudio.com/):** This Integrated Development Environment (IDE) was the primary tool for writing and editing the HTML and CSS code. The use of extensions like Prettier or code formatting and Live Server for real-time previews significantly enhanced the development workflow.
 - **[Git](https://git-scm.com/):** Employed for version control, allowing for the tracking of changes in the project's codebase; ensuring that the development process was organised.
 - **[GitHub](https://github.com/):** The project code was stored in a GitHub repository.
-- **[GitHub Pages](https://pages.github.com/):** Used to deploy th websit, making it accessible to users online.
+- **[GitHub Pages](https://pages.github.com/):** Used to deploy the website, making it accessible to users online.
 
 # Testing
 
@@ -343,7 +343,7 @@ This project utilised a range of modern web development technologies, tools and 
 
 ### Hero Section Text Not Centering
 
-**Issue:** The hero section text would not center ane kept staying at the top of the `div`. After many attempts at centering the text, it was eventually centered but split into two columns.The problem was resolved with guidance from my mentor. The issue was related to CSS properties used for alignment and layout.
+**Issue:** The hero section text would not centre and kept staying at the top of the `div`. After many attempts at centring the text, it was eventually centred but split into two columns. The problem was resolved with guidance from my mentor. The issue was related to CSS properties used for alignment and layout.
 
 **Resolution:** The solution involved using Flexbox to center the text vertically and horizontally, and adjusting height properties. The following CSS was used:
 
@@ -394,15 +394,15 @@ For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css
 
 ## Manual Testing
 
-|            Action            |                                   Expectation                                    | Pass/Fail |
-| :--------------------------: | :------------------------------------------------------------------------------: | :-------: |
-|            Header            |                         Responsive to different screens                          |   Pass    |
-|       Navigation Menu        |              Active page is yellow, resposive to different screens               |   Pass    |
-|       Naigation - Home       |       Takes you to Home page, red when hovered over and yellow when active       |   Pass    |
-| Naigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
-|    Naigation - Contact Us    |    Takes you to Contact Us page, red when hovered over and yellow when active    |   Pass    |
-|         Hero Section         |                         Responsive to different screens                          |   Pass    |
-|        Intro section         |                         Responsive to different screens                          |   Pass    |
+|            Action             |                                   Expectation                                    | Pass/Fail |
+| :---------------------------: | :------------------------------------------------------------------------------: | :-------: |
+|            Header             |                         Responsive to different screens                          |   Pass    |
+|        Navigation Menu        |              Active page is yellow, responsive to different screens              |   Pass    |
+|       Navigation - Home       |     Takes you to the Home page, red when hovered over and yellow when active     |   Pass    |
+| Navigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
+|    Navigation - Contact Us    |  Takes you to the Contact Us page, red when hovered over and yellow when active  |   Pass    |
+|         Hero Section          |                         Responsive to different screens                          |   Pass    |
+|         Intro section         |                         Responsive to different screens                          |   Pass    |
 
 # Deployment & Local Deployment
 
