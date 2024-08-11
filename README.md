@@ -404,6 +404,36 @@ For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css
 |         Hero Section          |                         Responsive to different screens                          |   Pass    |
 |         Intro section         |                         Responsive to different screens                          |   Pass    |
 
+## Lighthouse
+
+To ensure the best user experience, I conducted performance testing using Google Lighthouse. Below are the results and any actions taken based on the findings:
+
+### Home Page
+
+The Home page initially received a performance score of 73, primarily due to issues with the hero image. To address this, I compressed he hero image using [TinyPNG](https://tinypng.com/) and added `rel="preload"` in the HTML `<head>` to prioritise its loading, which improved the page's performance score.
+
+[Home page lighthouse results](assets/screenshots/lighthouse/index.html_lighthouse.png)
+
+### Explore Valencia Page
+
+For the Explore Valencia page, I achieved a performance score of 87. To improve this score, I compressed images in the attractions and cuisine sections, which significantly enhanced the page's loading speed.
+
+[Explore Valencia page lighthouse results](/assets/screenshots/lighthouse/explore.html_lighthouse.png)
+
+### Contact Us Page
+
+The Contact Us page had a performance score of 76, with the main dignostic issue being large layout shifts caused by late network requests and web font loading. To address these issues I used `rel="preload"` in the HTML `<head>`. This imrpoved the performance score to 97.
+
+[Contact Us page lighthouse results](/assets/screenshots/lighthouse/contact.html_lighthouse.png)
+
+### 404 Page
+
+[404 page lighthouse results](/assets/screenshots/lighthouse/404.html_lighthouse.png)
+
+### Thank You Page
+
+[Thnak You page lighthouse results](/assets/screenshots/lighthouse/thank-you.html_lighthouse.png)
+
 # Deployment & Local Deployment
 
 ## Deployment (GitHub Pages)
