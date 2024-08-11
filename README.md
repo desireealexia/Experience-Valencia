@@ -13,19 +13,29 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
   - [Wireframes](#wireframes)
 - [Features](#features)
   - [All Pages](#all-pages)
-  - [Home Page](#home-page)
-  - [Explore Valencia Page](#explore-valencia-page)
-  - [Contact Us Page](#contact-us-page)
+  - [Main Pages](#main-pages)
+  - [Home Page (index.html)](#home-page)
+  - [Explore Valencia Page (explore.html)](#explore-valencia-page)
+  - [Contact Us Page (contact.html)](#contact-us-page)
+  - [404 Page (404.html)](#404-page)
+  - [Thank you Page (thank-you.html)](#thank-you-page)
+  - [Future Features](#future-features)
 - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Design & Development Tools](#frameworks-libraries--programmes-used)
 - [Testing](#testing)
+  - [Troubleshooting](#troubleshooting)
+  - [Devices Used for Testing](#devices-used-for-testing)
+  - [Browsers Used for Testing](#browsers-used-for-testing)
+  - [Validation](#validation)
+  - [Manual Testing](#manual-testing)
 - [Deployment](#deployment--local-deployment)
   - [Deployment (GitHub Pages)](#deployment)
   - [Local Deployment](#local-deployment)
 - [Credits](#credits)
   - [Code](#code)
+  - [Research and Resources](#research-and-resources)
   - [Media](#media)
   - [Content](#content)
 
@@ -191,7 +201,6 @@ The website features a responsive design ensuring it looks great on all devices,
 |                                                 Mobile                                                  |                                                 Tablet                                                  |                                                  Desktop                                                  |
 | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
 | <img src="/assets/screenshots/features/logo_navigation-mobile.png" alt="Logo and Navigation on mobile"> | <img src="/assets/screenshots/features/logo_navigation-tablet.png" alt="Logo and Navigation on tablet"> | <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Logo and Navigation on desktop"> |
-|                                                                                                         |
 
 - **Footer:** Contains the Experience Valencia favicon, a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
 
@@ -215,7 +224,7 @@ The website features a responsive design ensuring it looks great on all devices,
 | :-------------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------: |
 | <img src="" alt="Essential tips section on mobile"> | <img src="" alt="Essential tips section on tablet"> | <img src="" alt="Essential tips section on desktop"> |
 
-## Explore Valencia Page
+## Explore Valencia Page (explore.html)
 
 - **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to set the tone for exploring the city.
 
@@ -237,7 +246,7 @@ The website features a responsive design ensuring it looks great on all devices,
 
 <img src="/assets/screenshots/features/explore_cuisine-desktop.png" alt="Explore page cuisine section on desktop">
 
-## Contact Us Page
+## Contact Us Page (contact.html)
 
 - **Hero Section:** Features an captivating image of L'Umbracle Terraza in the City of Arts and Sciences, along with introductory text to invite visitors to get in touch.
 
@@ -257,14 +266,14 @@ The website features a responsive design ensuring it looks great on all devices,
 
   <img src="/assets/screenshots/features/contact_form-desktop.png" alt="Contact page contact form on desktop">
 
-## 404 Page
+## 404 Page (404.html)
 
 - **Error Message:** Clearly indicates that the page was not found, helping users understand what went wrong.
 - **Navigation Buttons:** Two buttons are provided—one to go return to the Home page and another to go to the Contact Us page - helping guide lost users back to relevant content.
 
 <img src="/assets/screenshots/features/404_page-desktop.png" alt="404 page on desktop">
 
-## Thank You Page
+## Thank You Page (thank-you.html)
 
 - **Thank You Message:** A message thanking the user for submitting the form, confirming that their message has been received.
 - **Navigation Buttons:** A button is provided to return users to the Home page, ensuring they can continue exploring the site.
@@ -292,7 +301,7 @@ Ensuring accessibiliy is a fundamental aspect of creatingg an inclusive and user
 - **Keyboard Navigation:** All interactive elements are accessible via keyboard navigatio. Users can tab throuh links, form fields and buttons, and use the Enter key to activat them.
 - **Text Contrast:** Verified that text and background colour combinations meet accessibility standards using the Accessible Colour Palette Builder and WebAIM Contrast Checker. This ensures sufficient contast ratios for readability, especially for users with low vision or colour blindness.
 
-<img src="/assets/design/ev_colour-accessibility.png" alt="Accessible colour palette for text contrast" width="600">
+<img src="/assets/design/ev_colour-accessibility.png" alt="Accessible colour palette for text contrast">
 
 - **Focus Indicatiors:** Applied clear focus indicators (such as colours) on interactivee elements to help users who navigate via keyboard, this heps users know which element is currently focused.
 - **Responsive Design:** Website is designed to be responsive and functional on various devicees and screen sizes. This includes making sure that all interactive elements and content are accessible and usable on mobile devices, tablets and desktop computers.
@@ -324,53 +333,18 @@ This project utilised a range of modern web development technologies, tools and 
 
 # Testing
 
-## Cross-Browser Compatibility
-
-Browsers Tests: Chrome, Safari and Edge
-Findings:
-
-## Responsive Design
-
-List devices: iPhone 13 Pro, iPad, Macbook Air 13" and 23" monitor
-Finding:
-
-## Solved Bugs
-
-## Automated Testing
-
-### W3C HTML Validator
-
-### W3C CSS Validator
-
-## Performance Testing
-
-## Acessibility Testing
-
-## SEO
-
-## Manual Testing
-
-|            Action            |                                   Expectation                                    | Pass/Fail |
-| :--------------------------: | :------------------------------------------------------------------------------: | :-------: |
-|            Header            |                         Responsive to different screens                          |   Pass    |
-|        Logo in Banner        |                       Click logo and take you to Home Page                       |   ----    |
-|       Navigation Menu        |              Active page is yellow, resposive to different screens               | And more  |
-|       Naigation - Home       |       Takes you to Home page, red when hovered over and yellow when active       |   Pass    |
-| Naigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
-|    Naigation - Contact Us    |    Takes you to Contact Us page, red when hovered over and yellow when active    |   Pass    |
-|         Hero Section         |                         Responsive to different screens                          |   Pass    |
-|        Intro section         |                         Responsive to different screens                          |   Pass    |
-
 ## Troubleshooting
 
 ### Background Image Not Appearing
 
 **Issue:** The background image for the hero section was not appearing on any of the pages after converting all images to .webp formats. The problem was identified as being related to the file path used for the background image in the CSS. Despite multiple attempts to correct the path, the image did not display as expected.
+
 **Resolution:** After researching similar issues online, I found a solution on [Stack Overflow](https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css) here others had faced the same problem. It was determined that the file path needed to be placed in quotation marks. Implementing this solution resolved the issue, and the background image displayed correctly across all pages.
 
 ### Hero Section Text Not Centering
 
 **Issue:** The hero section text would not center ane kept staying at the top of the `div`. After many attempts at centering the text, it was eventually centered but split into two columns.The problem was resolved with guidance from my mentor. The issue was related to CSS properties used for alignment and layout.
+
 **Resolution:** The solution involved using Flexbox to center the text vertically and horizontally, and adjusting height properties. The following CSS was used:
 
 ```
@@ -394,6 +368,41 @@ Finding:
 **Issue:** After creating the `thank-you.html` page and connecting it to the contact form using the `action` attribute, testing the form resulted in an error page. The form used the POST method, which was not suitable as there was no database connected to handle the request.
 
 **Resolution:** The HTTP method was changed from POST to GET to resolve the issue.
+
+## Devices Used for Testing
+
+- **iPhone 13 Pro:** Tested responsiveness and user experience on a mobile device to ensure the site is functional and visually appealing on smaller screens.
+- **iPad:** Checked the layout and interaction elements on a tablet to confirm proper scaling and usability.
+- **MacBook Air 13":** Verified the design and functionality on a standard laptop screen to ensure consistency across different screen sizes.
+- **23" Monitor:** Assessed the website's appearance on a larger desktop monitor to check for any layout issues or visual discrepancies.
+
+## Browsers Used for Testing
+
+- **Chrome:** Tested across various versions to ensure compatibility and performance in a widely used browser.
+- **Safari:** Checked to confirm that the site displays correctly and functions as expected on Apple's default browser.
+- **Edge:** Validated the site’s functionality and appearance on Microsoft's browser to ensure a consistent experience for all users.
+
+## Validation
+
+### HTML Validator
+
+To ensure the correctness of the HTML code, I used the [W3C HTML Validator](https://validator.w3.org/). The validation process revealed no errors in the HTML code across all pages of the website. This confirms that the HTML is properly structured and adheres to web standards.
+
+### CSS Validator
+
+For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The CSS code was thoroughly checked, and no errors were found. This indicates that the CSS is correctly formatted and conforms to the established CSS standards.
+
+## Manual Testing
+
+|            Action            |                                   Expectation                                    | Pass/Fail |
+| :--------------------------: | :------------------------------------------------------------------------------: | :-------: |
+|            Header            |                         Responsive to different screens                          |   Pass    |
+|       Navigation Menu        |              Active page is yellow, resposive to different screens               |   Pass    |
+|       Naigation - Home       |       Takes you to Home page, red when hovered over and yellow when active       |   Pass    |
+| Naigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
+|    Naigation - Contact Us    |    Takes you to Contact Us page, red when hovered over and yellow when active    |   Pass    |
+|         Hero Section         |                         Responsive to different screens                          |   Pass    |
+|        Intro section         |                         Responsive to different screens                          |   Pass    |
 
 # Deployment & Local Deployment
 
