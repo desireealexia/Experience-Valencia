@@ -1,6 +1,6 @@
 # [Experience Valencia](https://desireealexia.github.io/Experience-Valencia/index.html)
 
-![Am I Responsive](/assets/design/ev_responsive.png)
+![Am I Responsive](/assets/screenshots/ev_responsive.png)
 
 Experience Valencia is a comprehensive, user-friendly online guide for tourists visiting Valencia, Spain, providing information on attractions, cuisine and practical tips. This guide can also be used by nomads, expats, and residents of Spain.
 
@@ -75,7 +75,7 @@ As a frequent visitor, I want:
 
 The colour pallete for the Experience Valeencia website was selected to relect the vibrant and dynamic essence of Valencia while ensuring readabiliy and visual harmony. The palette is inspired by the colours of the [Valencian Community Flag](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHDltCMJWOwD_TXM0lBRmdTQM0RO9Ol97DFQ&s) and have been strategically applied across various elements of the website.
 
-<img src="/assets/design/ev_colour-palette.png" alt="Experience Valencia colour palette made in Coolors" width="400">
+<img src="/assets/design/ev_colour-palette.png" alt="Experience Valencia colour palette made in Coolors">
 
 Below is a detailed description of each color and its usage:
 
@@ -115,7 +115,7 @@ For this website, typography plays a cruicial role in enchancing readability and
 - **Headings:** The font used for heading is _League Spartan_, a bold sans-serif font. This font was chosen for its modern and clean appearance, making it ideal for headings. It provides a strong visual hierachy and helps highlight important sections and headings on the website.
 - **Body text:** The body text uses _Quicksand_, a sans-serif font selected for its readability and friendly, rounded design. This font ensures that the content is easy t read on all devices and provides a pleasant reading experience.
 
-<img src="/assets/design/google_fonts.png" alt="Google Fonts used on the website" width="400">
+<img src="/assets/design/google_fonts.png" alt="Google Fonts used on the website">
 
 Both fonts were imported into the `style.css` file using the Google Fonts service, ensurin that they are cosistently appealied across all pages; this also help with faster load times and better performance.
 
@@ -135,11 +135,11 @@ Both fonts were imported into the `style.css` file using the Google Fonts servic
 
 - **Logo:** The Experience Valencia logo consists of three vertical rectangles, each featuring a distinct icon: a plane, a suitcase, and a map pin. The rectangles are colored in the colours of the Valencian flag — blue, yellow, and red - used throughout the website. Beneath the rectangles, the text “Experience Valencia” is displayed in a clean, readable font. This logo is prominently featured across all pages to maintain brand identity.
 
-<img src="/assets/images/experience_valencia_logo.png" width="300" height="300" alt="Experience Valencia logo">
+<img src="/assets/images/experience_valencia_logo.webp" width="300" height="300" alt="Experience Valencia logo">
 
 - **Favicon:** The faviccon is a simplfied version of the loo, ommittingthe text and featring the three vertical rectangle with the icons. It appears in the browser tab to provide a consistent branding experience.
 
-<img src="/assets/images/experience_valencia_icon.png" width="300" height="300" alt="Experience Valencia favicon">
+<img src="/assets/images/experience_valencia_favicon.webp" width="300" height="300" alt="Experience Valencia favicon">
 
 ## Wireframes
 
@@ -188,35 +188,16 @@ The website features a responsive design ensuring it looks great on all devices,
 - **Experience Valencia Logo:** Displayed as a banner above navigation menu, reinforcing brand identity.
 - **Responsive Navigation Menu:** Provides easy access to other parts of the site. On mobile devices, the navigation menu collapses into a vertical format, with each link stacked for easy tapping.
 
-#### Logo and Navigation on Mobile
-
-<img src="/assets/screenshots/features/logo_navigation-mobile.png" alt="Logo and Navigation on mobile">
-
-#### Logo and Navigation on Tablet
-
-<img src="/assets/screenshots/features/logo_navigation-tablet.png" alt="Logo and Navigation on tablet">
-
-#### Logo and Navigation on Deskop
-
-<img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Logo and Navigation on desktop">
+|                                                 Mobile                                                  |                                                 Tablet                                                  |                                                  Desktop                                                  |
+| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/logo_navigation-mobile.png" alt="Logo and Navigation on mobile"> | <img src="/assets/screenshots/features/logo_navigation-tablet.png" alt="Logo and Navigation on tablet"> | <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Logo and Navigation on desktop"> |
+|                                                                                                         |
 
 - **Footer:** Contains the Experience Valencia favicon, a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
 
-|                                      Mobile                                       |                                      Tablet                                      |                                       Desktop                                       |
-| :-------------------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
-| <img src="/assets/screenshots/features/footer-mobile.png" alt="Footer on mobile"> | <img src="/assets/screenshots/features/foote-tablet.png" alt="Footer on tablet"> | <img src="/assets/screenshots/features/footer-desktop.png" alt="Footer on desktop"> |
-
-#### Footer on Mobile
-
-<img src="/assets/screenshots/features/footer-mobile.png" alt="Footer on mobile">
-
-#### Footer on Tablet
-
-<img src="/assets/screenshots/features/foote-tablet.png" alt="Footer on tablet">
-
-#### Footer on Deskop
-
-<img src="/assets/screenshots/features/footer-desktop.png" alt="Footer on desktop">
+|                                      Mobile                                       |                                      Tablet                                       |                                       Desktop                                       |
+| :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/footer-mobile.png" alt="Footer on mobile"> | <img src="/assets/screenshots/features/footer-tablet.png" alt="Footer on tablet"> | <img src="/assets/screenshots/features/footer-desktop.png" alt="Footer on desktop"> |
 
 ## Home Page (index.html)
 
@@ -230,36 +211,65 @@ The website features a responsive design ensuring it looks great on all devices,
 
 - **Essential Tips Section:** Offers practical advice and useful iformation for users, such as modes of transport, weather and local customs.
 
-<img src="" alt="Essential tips section on desktop">
+|                       Mobile                        |                       Tablet                        |                       Desktop                        |
+| :-------------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------: |
+| <img src="" alt="Essential tips section on mobile"> | <img src="" alt="Essential tips section on tablet"> | <img src="" alt="Essential tips section on desktop"> |
 
 ## Explore Valencia Page
 
-- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to set the tone for exploring the city
+- **Hero Section:** Features a captivating image of L'Umbracle Terraza in the City of Arts and Science, accompanied by a brief introductory text to set the tone for exploring the city.
+
+<img src="/assets/screenshots/features/explore_hero-desktop.png" alt="Explore page hero section on desktop">
+
 - **Introduction Text:** Provides an overview of the page, encouraging users to explore the content further.
-- **Quick Navigation Buttons:** Buttons are provided to quickly scroll to the attractions and cuisine sections, enhacing each user experience by providing quick access o relevant content.
+
+<img src="/assets/screenshots/features/explore_introduction-desktop.png" alt="Explore page introduction text on desktop">
+
+- **Quick Navigation Buttons:** Buttons are provided to quickly scroll to the attractions and cuisine sections, enhacing each user experience by providing quick access to relevant content.
+
+<img src="/assets/screenshots/features/explore_nav_buttons-desktop.png" alt="Explore page navigation buttons on desktop">
+
 - **Attrattions Section:** Detailed information on popular tourist attractios is presented to inform users. Each attraction includes a brief description and a high-quality image, showcasing places like the City of Arts and Sciences, Valencia Cathedral, The Silk Exchange, and Bioparc Valencia.
+
+<img src="/assets/screenshots/features/explore_attractions-desktop.png" alt="Explore page attractions section on desktop">
+
 - **Cuisine Section:** A showcase of local cuisine highlights the unique flavors of Valencia. Each dish, such as Paella, Horchata, Churros and Chocolate, and Fideua, is described briefly and paired with an appetising image.
+
+<img src="/assets/screenshots/features/explore_cuisine-desktop.png" alt="Explore page cuisine section on desktop">
 
 ## Contact Us Page
 
 - **Hero Section:** Features an captivating image of L'Umbracle Terraza in the City of Arts and Sciences, along with introductory text to invite visitors to get in touch.
+
+<img src="/assets/screenshots/features/contact_hero-desktop.png" alt="Contact page hero section on desktop">
+
 - **Introduction Text:** Details the reasons why users might want to contact Experience Valencia and how they can do it.
+
+<img src="/assets/screenshots/features/contact_introduction-desktop.png" alt="Contact page introduction text on desktop">
+
 - **Contact Form:** A form is provided for users to get in touch with Experience Valencia. The form includes:
+
   - Fields for the user's name, email, subject (enquiry, feedback, or other), and a textarea for users to leave their message.
   - Required fields for the name, email, and message to ensure that all necessary information is provided.
   - The subject field is set to default to "enquiry" for user convenience.
   - A Submit button to send the form, which redirects users to the Thank You page upon successful submission.
   - A Clear button to reset the form, allowing users to start over if needed.
 
+  <img src="/assets/screenshots/features/contact_form-desktop.png" alt="Contact page contact form on desktop">
+
 ## 404 Page
 
 - **Error Message:** Clearly indicates that the page was not found, helping users understand what went wrong.
 - **Navigation Buttons:** Two buttons are provided—one to go return to the Home page and another to go to the Contact Us page - helping guide lost users back to relevant content.
 
+<img src="/assets/screenshots/features/404_page-desktop.png" alt="404 page on desktop">
+
 ## Thank You Page
 
 - **Thank You Message:** A message thanking the user for submitting the form, confirming that their message has been received.
 - **Navigation Buttons:** A button is provided to return users to the Home page, ensuring they can continue exploring the site.
+
+<img src="/assets/screenshots/features/thank_you_page-desktop.png" alt="Thank you page on desktop">
 
 ## Future Features
 
