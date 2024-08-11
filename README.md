@@ -453,11 +453,10 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 - **Hero Section:** Image of L'Umbracle Terraza (City of Arts and Sciences) sourced from [Pixabay](https://pixabay.com/).
 - **Explore Valencia Page:** Images sourced from:
   - [Pixabay](https://pixabay.com/): City of Arts and Sciences, The Silk Exchange, Elephants at the Bioparc Valencia
-  - [Unsplash](https://unsplash.com/): Valencia Cathedral, Churros and Chocolate
-  - [Pexels](https://www.pexels.com/): Paella
+  - [Unsplash](https://unsplash.com/): Churros and Chocolate
   - [Flickr (Trevor Huxham)](https://www.flickr.com/photos/ferrariguy90/8561141839): Horchata
   - [Tripadvisor](https://www.tripadvisor.co.uk/): Churros and Chocolate
-  - [Wickimedia Commons](https://commons.wikimedia.org/): Agua de Valencia
+  - [Wickimedia Commons](https://commons.wikimedia.org/): Agua de Valencia, Valencia Cathedral and Paella
 
 ### Icons
 
