@@ -527,7 +527,7 @@ form p {
     width: 25%;
   }
   .tips-card {
-    height: 350px;
+    height: 400px;
   }
   .card img {
     height: 255px;
@@ -553,10 +553,10 @@ form p {
     height: 200px;
   }
   #attractions .card-body {
-    height: 305px;
+    height: 350px;
   }
   #cuisine .card-body {
-    height: 255px;
+    height: 300px;
   }
   .not-found-text,
   .thank-you-text {
@@ -570,7 +570,7 @@ form p {
     width: 25%;
   }
   .tips-card {
-    height: 300px;
+    height: 350px;
   }
   .card img {
     height: 255px;
@@ -596,17 +596,20 @@ form p {
     height: 300px;
   }
   #attractions .card-body {
-    height: 250px;
+    height: 300px;
   }
   #cuisine .card-body {
-    height: 210px;
+    height: 250px;
   }
 }
 @media screen and (min-width: 1400px) {
+  .tips-card {
+    height: 300px;
+  }
   #attractions .card-body {
-    height: 330px;
+    height: 370px;
   }
   #cuisine .card-body {
-    height: 270px;
+    height: 300px;
   }
 }
