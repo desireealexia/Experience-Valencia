@@ -24,13 +24,13 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Design & Development Tools](#frameworks-libraries--programmes-used)
-- [Testing](#testing)
-  - [Troubleshooting](#troubleshooting)
-  - [Devices Used for Testing](#devices-used-for-testing)
-  - [Browsers Used for Testing](#browsers-used-for-testing)
-  - [Validation](#validation)
-  - [Manual Testing](#manual-testing)
-  - [Lighthouse](#lighthouse)
+- [Manual Testing](#manual-testing)
+  - [Features Testing](#features-testing)
+  - [Browser Compatibility](#browser-compatibility)
+  - [Responsiveness Testing](#responsiveness-testing)
+  - [Code Validation](#code-validation)
+  - [Bugs](#bugs)
+  - [Lighthouse Testing](#lighthouse-testing)
 - [Deployment](#deployment--local-deployment)
   - [Deployment (GitHub Pages)](#deployment)
   - [Local Deployment](#local-deployment)
@@ -110,7 +110,7 @@ Below is a detailed description of each colour and its usage:
 
 - **Focused Navigation Link:** This bright yellow is used for focused navigation links, drawing attention to the current page and improving navigation clarity.
 - **Essential Tips Cards:** A slightly less opaque yellow is used for the Essential Tips cards on the Home page, adding a warm touch to the section without overwhelming the design.
-- **Hover State for Sumbit Button:** Applied to the hover state of the _Sumbit_ button on the Contact Us form, creating a noticeable interactive effect.
+- **Hover State for Submit Button:** Applied to the hover state of the _Submit_ button on the Contact Us form, creating a noticeable interactive effect.
 
 #### Accent Colour - Red (#DC332E)
 
@@ -184,7 +184,7 @@ These wireframes were created to ensure the design was responsive and looked goo
 
 Since the Contact Us page has a straightforward design, I did not create a wireframe for it. The page was planned and implemented directly in the development phase, focusing on a simple and effective user interface to facilitate easy communication between users and Experience Valencia.
 
-I also did not create wireframes for the 404 and Thak You pages as they were not part of my initial project plan. However, after receiving advice from my mentor, Diego, I recognised the importance of including these pages for a better user experience. Since this decision was made late in the project, I did not have wireframes prepared for these pages.
+I also did not create wireframes for the 404 and Thank You pages as they were not part of my initial project plan. However, after receiving advice from my mentor, Diego, I recognised the importance of including these pages for a better user experience. Since this decision was made late in the project, I did not have wireframes prepared for these pages.
 
 # Features
 
@@ -323,8 +323,8 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 - **[Coolors](https://coolors.co/):** Used to create the website's colour palette, ensuring that they reflected the colours of the Valencian Community flag and worked well together.
 - **[Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/)**: This tool was essential in confirming that the chosen combinations met accessibility standards, particularly regarding text contrast.
 - **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)**: Used to verify the contrast ratios between background and foreground colours, ensuring that the website's text is legible and meets accessibility guidelines.
-- **[Cloud Coverter](https://cloudconvert.com/) and [Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp
-- **[Google Fonts](https://fonts.google.com/):** Provided access to the typograpy used throughout the website.
+- **[Cloud Convert](https://cloudconvert.com/) and [Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp.
+- **[Google Fonts](https://fonts.google.com/):** Provided access to the typography used throughout the website.
 - **[Font Awesome](https://fontawesome.com/):** Integrated to include vector icons on the website specifically for social media links in the footer.
 - **[Flaticon](https://www.flaticon.com/):** Icons used on the Home page and Explore Valencia page were sourced from Flaticon. These icons helped visually convey information and enhance user engagement.
 - **[Visual Studio Code](https://code.visualstudio.com/):** This Integrated Development Environment (IDE) was the primary tool for writing and editing the HTML and CSS code. The use of extensions like Prettier or code formatting and Live Server for real-time previews significantly enhanced the development workflow.
@@ -332,9 +332,53 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 - **[GitHub](https://github.com/):** The project code was stored in a GitHub repository.
 - **[GitHub Pages](https://pages.github.com/):** Used to deploy the website, making it accessible to users online.
 
-# Testing
+# Manual Testing
 
-## Troubleshooting
+## Features Testing
+
+|                     Feature                      |                      Test case                      |                    Outcome                     |
+| :----------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------: |
+|                Navbar - Home page                |         Click on the Home link on each page         |       The user is taken to the Home page       |
+|            Navbar - Explore Valencia             |   Click on the Explore Valencia link on each page   | The user is taken to the Explore Valencia page |
+|               Navbar - Contact Us                |      Click on the Contact Us link on each page      |    The user is taken to the Contact Us page    |
+|                  Navbar - Hover                  |          Hover over all links on each page          |        Background colour changes to red        |
+| Explore Valencia page - Quick Navigation Buttons |     Hover over Attractions and Cuisine buttons      |           Buttons has red background           |
+| Explore Valencia page - Quick Navigation Buttons |      Click on Attractions and Cuisine buttons       |   The user is take to the relevant sections    |
+|                   Contact Form                   |                Submit an empty form                 |        Error signalling required fields        |
+|                   Contact Form                   | Submit completed form with required field filled in |           thank-you.html page opens            |
+|           Footer - Social Media links            |             Click on social media links             |       Each website opens in separate tab       |
+|       Thank You page - Return to Home page       |         Click on Return to Home page button         |       The user is taken to the Home page       |
+|          404 page - Return to Home page          |         Click on Return to Home page button         |       The user is taken to the Home page       |
+|              404 page - Contact Us               |             Click on Contact Us button              |    The user is taken to the Contact us page    |
+
+## Browser Compatibility
+
+| Browser Tested | Intended Appearance | Intended Responsiveness |
+| :------------: | :-----------------: | :---------------------: |
+|     Chrome     |        Good         |          Good           |
+|     Safari     |        Good         |          Good           |
+
+## Responsiveness Testing
+
+|    Device Tested    | Site responsive >= 700px | Site responsive < 699px> | Renders as expected |
+| :-----------------: | :----------------------: | :----------------------: | :-----------------: |
+|  iPhone 14 Pro Max  |           N/A            |           Good           |        Good         |
+| Samsung Galaxy S8 + |           N/A            |           Fair           |        Fair         |
+|      iPad Air       |           Good           |           N/A            |        Good         |
+|   MacBook Air 13"   |           Good           |           N/A            |        Good         |
+|     23" monitor     |           Good           |           N/A            |        Good         |
+
+## Code Validation
+
+### HTML Validator
+
+To ensure the correctness of the HTML code, I used the [W3C HTML Validator](https://validator.w3.org/). The validation process revealed no errors in the HTML code across all pages of the website. This confirms that the HTML is properly structured and adheres to web standards.
+
+### CSS Validator
+
+For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The CSS code was thoroughly checked, and no errors were found. This indicates that the CSS is correctly formatted and conforms to the established CSS standards.
+
+## Bugs
 
 ### Background Image Not Appearing
 
@@ -342,7 +386,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 **Resolution:** After researching similar issues online, I found a solution on [Stack Overflow](https://stackoverflow.com/questions/8783026/css-background-image-in-a-different-folder-from-css) here others had faced the same problem. It was determined that the file path needed to be placed in quotation marks. Implementing this solution resolved the issue, and the background image displayed correctly across all pages.
 
-### Hero Section Text Not Centering
+### Hero Section Text Not Centring
 
 **Issue:** The hero section text would not centre and kept staying at the top of the `div`. After many attempts at centring the text, it was eventually centred but split into two columns. The problem was resolved with guidance from my mentor. The issue was related to CSS properties used for alignment and layout.
 
@@ -370,48 +414,13 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 **Resolution:** The HTTP method was changed from POST to GET to resolve the issue.
 
-## Devices Used for Testing
-
-- **iPhone 13 Pro:** Tested responsiveness and user experience on a mobile device to ensure the site is functional and visually appealing on smaller screens.
-- **iPad:** Checked the layout and interaction elements on a tablet to confirm proper scaling and usability.
-- **MacBook Air 13":** Verified the design and functionality on a standard laptop screen to ensure consistency across different screen sizes.
-- **23" Monitor:** Assessed the website's appearance on a larger desktop monitor to check for any layout issues or visual discrepancies.
-
-## Browsers Used for Testing
-
-- **Chrome:** Tested across various versions to ensure compatibility and performance in a widely used browser.
-- **Safari:** Checked to confirm that the site displays correctly and functions as expected on Apple's default browser.
-- **Edge:** Validated the site’s functionality and appearance on Microsoft's browser to ensure a consistent experience for all users.
-
-## Validation
-
-### HTML Validator
-
-To ensure the correctness of the HTML code, I used the [W3C HTML Validator](https://validator.w3.org/). The validation process revealed no errors in the HTML code across all pages of the website. This confirms that the HTML is properly structured and adheres to web standards.
-
-### CSS Validator
-
-For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). The CSS code was thoroughly checked, and no errors were found. This indicates that the CSS is correctly formatted and conforms to the established CSS standards.
-
-## Manual Testing
-
-|            Action             |                                   Expectation                                    | Pass/Fail |
-| :---------------------------: | :------------------------------------------------------------------------------: | :-------: |
-|            Header             |                         Responsive to different screens                          |   Pass    |
-|        Navigation Menu        |              Active page is yellow, responsive to different screens              |   Pass    |
-|       Navigation - Home       |     Takes you to the Home page, red when hovered over and yellow when active     |   Pass    |
-| Navigation - Explore Valencia | Takes you to Explore Valencia page, red when hovered over and yellow when active |   Pass    |
-|    Navigation - Contact Us    |  Takes you to the Contact Us page, red when hovered over and yellow when active  |   Pass    |
-|         Hero Section          |                         Responsive to different screens                          |   Pass    |
-|         Intro section         |                         Responsive to different screens                          |   Pass    |
-
-## Lighthouse
+## Lighthouse Testing
 
 To ensure the best user experience, I conducted performance testing using Google Lighthouse. Below are the results and any actions taken based on the findings:
 
 ### Home Page
 
-The Home page initially received a performance score of 73, primarily due to issues with the hero image. To address this, I compressed he hero image using [TinyPNG](https://tinypng.com/) and added `rel="preload"` in the HTML `<head>` to prioritise its loading, which improved the page's performance score.
+The Home page initially received a performance score of 73, primarily due to issues with the hero image. To address this, I compressed he hero image using TinyPNG and added `rel="preload"` in the HTML `<head>` to prioritise its loading, which improved the page's performance score.
 
 ![Home page lighthouse results](assets/screenshots/lighthouse/index.html_lighthouse.png)
 
@@ -423,7 +432,7 @@ For the Explore Valencia page, I achieved a performance score of 87. To improve 
 
 ### Contact Us Page
 
-The Contact Us page had a performance score of 76, with the main dignostic issue being large layout shifts caused by late network requests and web font loading. To address these issues I used `rel="preload"` in the HTML `<head>`. This imrpoved the performance score to 97.
+The Contact Us page had a performance score of 76, with the main diagnostic issue being large layout shifts caused by late network requests and web font loading. To address these issues I used `rel="preload"` in the HTML `<head>`. This improved the performance score to 97.
 
 ![Contact Us page lighthouse results](/assets/screenshots/lighthouse/contact.html_lighthouse.png)
 
@@ -433,7 +442,7 @@ The Contact Us page had a performance score of 76, with the main dignostic issue
 
 ### Thank You Page
 
-![Thnak You page lighthouse results](/assets/screenshots/lighthouse/thank-you.html_lighthouse.png)
+![Thank You page lighthouse results](/assets/screenshots/lighthouse/thank-you.html_lighthouse.png)
 
 # Deployment & Local Deployment
 
@@ -465,7 +474,7 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 ## Code
 
 - **Columns and Cards:** Adapted from my [Portfolio Project](https://gitshub.com/desireealexia/my-portfolio/blob/main/home.html). This was used in the essential tips section on the Home page, the attractions and cuisine sections on the Explore Valencia page, and the footer.
-- **404 and Thank You Pages:** Adpated code from [GeeksforGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css) and [Akash Rajendra's Codepen](https://codepen.io/akashrajendra/pen/JKKRvQ). Maintained consistency throughout the website by using the same structure and styling for both pages.
+- **404 and Thank You Pages:** Adapted code from [GeeksforGeeks](https://www.geeksforgeeks.org/create-a-404-page-using-html-and-css) and [Akash Rajendra's Codepen](https://codepen.io/akashrajendra/pen/JKKRvQ). Maintained consistency throughout the website by using the same structure and styling for both pages.
 - **Three Columns Styling:** Adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_three_columns.asp).
 - **Cards Styling:** Adapted from [W3Schools](https://www.w3schools.com/howto/howto_css_cards.asp).
 - **Responsive Top Navigation:** Adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp).
@@ -475,6 +484,7 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 
 - **Responsive Design Breakpoints:** Used [Medium](https://medium.com/theymakedesign/breakpoints-in-web-design-4e3b334066e8) for common breakpoints in media queries.
 - **CSS Declaration Order:** Followed conventions from Kraken Technologies' [public-conventions repository](https://github.com/octoenergy/public-conventions/blob/main/conventions/css.md#declaration-order) on GitHub to ensure consistency in the `style.css` file.
+- **Compress Images:** Used [TinyPNG](https://tinypng.com/) to compress all the images on the website.
 
 ## Media
 
