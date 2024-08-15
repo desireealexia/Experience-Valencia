@@ -323,7 +323,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 - **[Coolors](https://coolors.co/):** Used to create the website's colour palette, ensuring that they reflected the colours of the Valencian Community flag and worked well together.
 - **[Accessible Colour Palette Builder](https://toolness.github.io/accessible-color-matrix/)**: This tool was essential in confirming that the chosen combinations met accessibility standards, particularly regarding text contrast.
 - **[WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)**: Used to verify the contrast ratios between background and foreground colours, ensuring that the website's text is legible and meets accessibility guidelines.
-- **[Cloud Convert](https://cloudconvert.com/) and [Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp.
+- **[Cloud Convert](https://cloudconvert.com/)** and **[Free Convert](https://www.freeconvert.com/webp-converter):** Used to convert .png and .jpg images to .webp.
 - **[Google Fonts](https://fonts.google.com/):** Provided access to the typography used throughout the website.
 - **[Font Awesome](https://fontawesome.com/):** Integrated to include vector icons on the website specifically for social media links in the footer.
 - **[Flaticon](https://www.flaticon.com/):** Icons used on the Home page and Explore Valencia page were sourced from Flaticon. These icons helped visually convey information and enhance user engagement.
@@ -501,8 +501,8 @@ This website was deployed using GitHub pages. Here are the steps of deployment:
 
 ### Icons
 
-- **Social Media Icons:** From Font Awesome
-- **Home Page and Explore Valencia Page Icons:** From Flaticon
+- **Social Media Icons:** From [Font Awesome](https://fontawesome.com/)
+- **Home Page and Explore Valencia Page Icons:** From [Flaticon](https://www.flaticon.com/)
 
 ## Content
 
