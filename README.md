@@ -29,6 +29,8 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
   - [Design & Development Tools](#frameworks-libraries--programmes-used)
 - [Manual Testing](#manual-testing)
   - [Features Testing](#features-testing)
+  - [User Stories Testing](#user-stories-testing)
+  - [Performance Issues and Solutions](#performance-issues-and-solutions)
   - [Browser Compatibility](#browser-compatibility)
   - [Responsiveness Testing](#responsiveness-testing)
   - [Code Validation](#code-validation)
@@ -393,9 +395,9 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 #### Increase Awareness
 
-![Video of Explore Valencia page](assets/videos/explore_valencia-page.mp4)
+![Attractions and Cuisine Sections on Explore Valencia page](assets/screenshots/features/explore_page-mobile.jpeg)
 
-This video highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
+This image highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
 
 #### Easy Navigation
 
@@ -435,9 +437,9 @@ This image illustrates the clean and intuitive layout that facilitates easy navi
 
 #### Mobile Accessibility
 
-![Video of website in mobile view](assets/videos/mobile_accessibility.mp4)
+![Explore page on Mobile](assets/screenshots/features/explore_page-mobile.jpeg)
 
-This video demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
+This screenshot demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
 
 #### Explore Local Cuisine
 
@@ -456,6 +458,31 @@ This image shows the essential tips section that provides valuable local insight
 ![Contact Us page](assets/screenshots/features/contact_page.png)
 
 This screenshot displays the "Contact Us" form, which allows users to share their experiences and request personalised recommendations. It illustrates how users can use the form to provide feedback, share tips, or seek tailored suggestions for their next visit.
+
+## Performance Issues and Solutions
+
+### Delayed Image Loading on the Explore Valencia Page
+
+**Issue:** On the Explore Valencia page, the images in the attractions and cuisine sections experience a noticeable delay in loading. This affects the user experience as users may see placeholders or incomplete images before the final content is fully displayed.
+
+#### Possible Causes:
+
+- **Large Image Files**: High-resolution images can take longer to load if they are not optimised for the web.
+- **Network Latency:** Slow network speeds or server response times can impact the speed at which images are fetched and displayed.
+- **Missing Optimisation Techniques:** Lack of image optimisation or preloading can contribute to slower image loading times.
+
+#### Solutions Implemented:
+
+- **Image Compression:** Images have been compressed to reduce their file size without significantly affecting quality. This helps decrease load times and improve overall performance.
+- **Lazy Loading:** Implemented lazy loading to defer the loading of images until they are needed. This is achieved by adding the `loading="lazy"` attribute to image tags, which improves page load times for users.
+
+`<img src="" alt="Attraction Image" loading="lazy">`
+
+- **Preloading Images:** Added `<link rel="preload">` tags to hint the browser to preload critical images, ensuring they are available immediately when needed.
+
+`<link rel="preload" href="" as="image">`
+
+- **WebP Format:** Considered using modern image formats like WebP to reduce file sizes and enhance load times compared to traditional formats like JPEG or PNG.
 
 ## Browser Compatibility
 
