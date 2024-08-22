@@ -417,7 +417,7 @@ These screenshots showcase the user-friendly navigation menu that ensures users 
 
 ![SEO on index.html](/assets/screenshots/features/seo_index.png)
 
-This screenshot shows the inclusion of meta tags, title, and description for SEO optimization. It reflects the website’s efforts to rank high in search engines and attract more visitors.
+This screenshot shows the inclusion of meta tags, titles, and descriptions for SEO optimisation. It reflects the website’s efforts to rank high in search engines and attract more visitors.
 
 #### Responsive and Accessible Design
 
@@ -469,7 +469,7 @@ This screenshot displays the "Contact Us" form, which allows users to share thei
 
 ### Delayed Image Loading on the Explore Valencia Page
 
-**Issue:** On the Explore Valencia page, the images in the attractions and cuisine sections experience a noticeable delay in loading. This affects the user experience as users may see placeholders or incomplete images before the final content is fully displayed.
+**Issue:** On the Explore Valencia page, the images in the attractions and cuisine sections experience a noticeable delay in loading. This affects the user experience as users may see placeholders or incomplete photos before the final content is fully displayed.
 
 #### Possible Causes:
 
