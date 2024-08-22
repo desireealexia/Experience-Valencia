@@ -400,7 +400,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 #### Increase Awareness
 
-<img scr="assets/screenshots/features/explore_page-mobile.jpeg" alt="Attractions and Cuisine Sections on Explore Valencia page" width="300" height="300">
+<img scr="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Attractions and Cuisine Sections on Explore Valencia page" width="300" height="300">
 
 This image highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
 
@@ -442,7 +442,7 @@ This image illustrates the clean and intuitive layout that facilitates easy navi
 
 #### Mobile Accessibility
 
-<img scr="assets/screenshots/features/explore_page-mobile.jpeg" alt="Explore page on Mobile" width="300" height="300">
+<img scr="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Explore page on Mobile" width="300" height="300">
 
 This screenshot demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
 
@@ -450,7 +450,7 @@ This screenshot demonstrates how the website adapts to mobile devices, with fast
 
 ![Cuisine Section on Explore Valencia page](assets/screenshots/features/explore_cuisine-desktop.png)
 
-This screenshot highlights the section dedicated to local cuisine, showcasing the rich flavors and dishes available in Valencia.
+This screenshot highlights the section dedicated to local cuisine, showcasing the rich flavours and dishes available in Valencia.
 
 #### Access Essential Tips
 
