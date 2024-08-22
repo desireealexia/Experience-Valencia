@@ -393,6 +393,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 |          404 page - Return to Home page button          |        Hover over Return to Home page button        |            Button background becomes blue and text changes to white             |
 |              404 page - Contact Us button               |             Click on Contact Us button              |                    The user is taken to the Contact us page                     |
 |              404 page - Contact Us button               |            Hover over Contact Us button             |             Button background becomes red and text changes to white             |
+|                   Keyboard Navigation                   |                   Press `tab` key                   |                        Able to navigate through website                         |
 
 ## User Stories Testing
 
