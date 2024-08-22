@@ -370,6 +370,14 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 |                  Menu-bar - Contact Us                  |      Click on the Contact Us link on each page      |                    The user is taken to the Contact Us page                     |
 |                    Menu-bar - Hover                     |          Hover over all links on each page          |                        Background colour changes to red                         |
 |                      Hero Section                       |            Change dimensions in DevTools            |                           Hero section is responsive                            |
+|                         Footer                          |            Change dimensions in DevTools            |                              Footer is responsive                               |
+|                      Footer - Logo                      |                    Click on logo                    |                     The user is taken to the top of screen                      |
+|                    Footer - Facebook                    |               Click on Facebook icon                |                     Facebook website opens in separate tab                      |
+|                    Footer - Facebook                    |              Hover over Facebook icon               |                             Facebook icon turns red                             |
+|                    Footer - Twitter                     |                Click on Twitter icon                |                      Twitter website opens in separate tab                      |
+|                    Footer - Twitter                     |               Hover over Twitter icon               |                             Twitter icon turns red                              |
+|                   Footer - Instagram                    |               Click on Instagram icon               |                     Instagram website opens in separate tab                     |
+|                   Footer - Instagram                    |              Hover over Instagram icon              |                            Instagram icon turns red                             |
 |            Homepage - Essential Tips Section            |            Change dimensions in DevTools            |                              Cards are responsive                               |
 |    Explore Valencia page - Quick Navigation Buttons     |     Hover over Attractions and Cuisine buttons      |              Buttons have red background, bottom border is removed              |
 |    Explore Valencia page - Quick Navigation Buttons     |      Click on Attractions and Cuisine buttons       |                    The user is take to the relevant sections                    |
@@ -379,9 +387,6 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 |                      Contact Form                       | Submit completed form with required field filled in |                            thank-you.html page opens                            |
 |               Contact Form - Clear button               |               Hover over Clear button               |            Button background becomes blue and text changes to white             |
 |              Contact Form - Submit button               |              Hover over Submit button               |           Button background becomes yellow and text changes to black            |
-|               Footer - Social Media links               |             Click on social media links             |                       Each website opens in separate tab                        |
-|               Footer - Social Media links               |            Hover over social media links            |                      Each social media link icon turns red                      |
-|                      Footer - Logo                      |                    Click on logo                    |                     The user is taken to the top of screen                      |
 |       Thank You page - Return to Home page button       |         Click on Return to Home page button         |                       The user is taken to the Home page                        |
 |       Thank You page - Return to Home page button       |        Hover over Return to Home page button        |            Button background becomes blue and text changes to white             |
 |          404 page - Return to Home page button          |         Click on Return to Home page button         |                       The user is taken to the Home page                        |
@@ -474,15 +479,26 @@ This screenshot displays the "Contact Us" form, which allows users to share thei
 #### Solutions Implemented:
 
 - **Image Compression:** Images have been compressed to reduce their file size without significantly affecting quality. This helps decrease load times and improve overall performance.
-- **Lazy Loading:** Implemented lazy loading to defer the loading of images until they are needed. This is achieved by adding the `loading="lazy"` attribute to image tags, which improves page load times for users.
-
-`<img src="" alt="Attraction Image" loading="lazy">`
-
+- **WebP Format:** Considered using modern image formats like WebP to reduce file sizes and enhance load times compared to traditional formats like JPEG or PNG.
 - **Preloading Images:** Added `<link rel="preload">` tags to hint the browser to preload critical images, ensuring they are available immediately when needed.
 
-`<link rel="preload" href="" as="image">`
+```
+<link
+  rel="preload"
+  href="assets/images/agua_de_valencia.webp"
+  as="image"
+/>
+```
 
-- **WebP Format:** Considered using modern image formats like WebP to reduce file sizes and enhance load times compared to traditional formats like JPEG or PNG.
+- **Lazy Loading:** Implemented lazy loading to defer the loading of images until they are needed. This is achieved by adding the `loading="lazy"` attribute to image tags, which improves page load times for users.
+
+```
+<img
+  src="assets/images/city-of-arts-and-sciences.webp"
+  alt="City of Arts and Sciences"
+  loading="lazy"
+/>
+```
 
 ## Browser Compatibility
 
@@ -546,6 +562,10 @@ For CSS validation, I utilised the [W3C CSS Validator](https://jigsaw.w3.org/css
 **Issue:** After creating the `thank-you.html` page and connecting it to the contact form using the `action` attribute, testing the form resulted in an error page. The form used the POST method, which was not suitable as there was no database connected to handle the request.
 
 **Resolution:** The HTTP method was changed from POST to GET to resolve the issue.
+
+### Unfixed Bugs
+
+There are no unfixed bugs.
 
 ## Lighthouse Testing
 
