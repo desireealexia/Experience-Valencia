@@ -295,6 +295,29 @@ The website features a responsive design ensuring it looks great on all devices,
 - **Interactive Map:** Enhance the Explore Valencia page with a map feature that allows users to get directions easily to different attractions and restaurants, improving their overall experience.
 - **Multi-Language Support:** Implement a feature to make the website available in multiple languages, allowing the user to view content in their preferred language and enabling accessibility for a global audience.
 
+# Feedback
+
+Throughout the development of this project, I received valuable feedback from my mentor, tutor, and peers, which helped me refine and improve the final product.
+
+## Peers
+
+- **Good Layout and Use of Colors:** My peers appreciated the overall design and colour scheme, noting that it provided a visually pleasing and cohesive user experience.
+- **Effective Purpose Fulfilment:** They also mentioned that the website effectively serves its intended purpose, providing clear and relevant information about Valencia.
+- **Menu-Bar Text Size:** One suggestion from my peers was to increase the size of the text in the menu bar to improve readability.
+
+|                                                        Old                                                        |                                                         Updated                                                         |
+| :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Old text size on Navigation on desktop"> | <img src="/assets/screenshots/features/logo_navigation-desktop_2.png" alt="Updated text size on Navigation on desktop"> |
+
+## Tutor
+
+- **Reduce On-Screen Text:** My tutor advised reducing the amount of on-screen text to make the content more digestible and user-friendly. This feedback led to a more concise and focused presentation of information across the site.
+
+|                                                              Old                                                               |                                                               Updated                                                                |
+| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+|        <img src="/assets/screenshots/features/home_introduction-desktop.png" alt="Old introduction text on Home page">         |        <img src="/assets/screenshots/features/home_introduction-desktop_2.png" alt="Updated introduction text on Home page">         |
+| <img src="/assets/screenshots/features/explore_introduction-desktop.png" alt="Old introduction text on Explore Valencia page"> | <img src="/assets/screenshots/features/explore_introduction-desktop_2.png" alt="Updated introduction text on Explore Valencia page"> |
+
 # Accessibility
 
 Ensuring accessibility is a fundamental aspect of creating an inclusive and user-friendly website. The Experience Valencia website was designed with accessibility in mind to accommodate users of all abilities and devices.
@@ -334,29 +357,6 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 - **[Git](https://git-scm.com/):** Employed for version control, allowing for the tracking of changes in the project's codebase; ensuring that the development process was organised.
 - **[GitHub](https://github.com/):** The project code was stored in a GitHub repository.
 - **[GitHub Pages](https://pages.github.com/):** Used to deploy the website, making it accessible to users online.
-
-# Feedback
-
-Throughout the development of this project, I received valuable feedback from my mentor, tutor, and peers, which helped me refine and improve the final product.
-
-## Peers
-
-- **Good Layout and Use of Colors:** My peers appreciated the overall design and colour scheme, noting that it provided a visually pleasing and cohesive user experience.
-- **Effective Purpose Fulfilment:** They also mentioned that the website effectively serves its intended purpose, providing clear and relevant information about Valencia.
-- **Menu-Bar Text Size:** One suggestion from my peers was to increase the size of the text in the menu bar to improve readability.
-
-|                                                        Old                                                        |                                                         Updated                                                         |
-| :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
-| <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Old text size on Navigation on desktop"> | <img src="/assets/screenshots/features/logo_navigation-desktop_2.png" alt="Updated text size on Navigation on desktop"> |
-
-## Tutor
-
-- **Reduce On-Screen Text:** My tutor advised reducing the amount of on-screen text to make the content more digestible and user-friendly. This feedback led to a more concise and focused presentation of information across the site.
-
-|                                                              Old                                                               |                                                               Updated                                                                |
-| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
-|        <img src="/assets/screenshots/features/home_introduction-desktop.png" alt="Old introduction text on Home page">         |        <img src="/assets/screenshots/features/home_introduction-desktop_2.png" alt="Updated introduction text on Home page">         |
-| <img src="/assets/screenshots/features/explore_introduction-desktop.png" alt="Old introduction text on Explore Valencia page"> | <img src="/assets/screenshots/features/explore_introduction-desktop_2.png" alt="Updated introduction text on Explore Valencia page"> |
 
 # Manual Testing
 
