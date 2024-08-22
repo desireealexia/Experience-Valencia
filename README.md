@@ -24,6 +24,9 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Design & Development Tools](#frameworks-libraries--programmes-used)
+- [Feedback](#feedback)
+  - [Peers](#peers)
+  - [Tutor](#tutor)
 - [Manual Testing](#manual-testing)
   - [Features Testing](#features-testing)
   - [Browser Compatibility](#browser-compatibility)
@@ -203,7 +206,7 @@ The website features a responsive design ensuring it looks great on all devices,
 | :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
 | <img src="/assets/screenshots/features/logo_navigation-mobile.png" alt="Logo and Navigation on mobile"> | <img src="/assets/screenshots/features/logo_navigation-tablet.png" alt="Logo and Navigation on tablet"> | <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Logo and Navigation on desktop"> |
 
-- **Footer:** Contains the Experience Valencia favicon, a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
+- **Footer:** Contains the Experience Valencia favicon, which, when pressed, takes users to the top of the page, acting as a back-to-top feature. Additionally, the footer includes a thank-you message for visiting the website, social media icon links for connecting with Experience Valencia, and copyright text.
 
 |                                      Mobile                                       |                                      Tablet                                       |                                       Desktop                                       |
 | :-------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
@@ -332,24 +335,59 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 - **[GitHub](https://github.com/):** The project code was stored in a GitHub repository.
 - **[GitHub Pages](https://pages.github.com/):** Used to deploy the website, making it accessible to users online.
 
+# Feedback
+
+Throughout the development of this project, I received valuable feedback from my mentor, tutor, and peers, which helped me refine and improve the final product.
+
+## Peers
+
+- **Good Layout and Use of Colors:** My peers appreciated the overall design and colour scheme, noting that it provided a visually pleasing and cohesive user experience.
+- **Effective Purpose Fulfilment:** They also mentioned that the website effectively serves its intended purpose, providing clear and relevant information about Valencia.
+- **Menu-Bar Text Size:** One suggestion from my peers was to increase the size of the text in the menu bar to improve readability.
+
+|                                                        Old                                                        |                                                         Updated                                                         |
+| :---------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/logo_navigation-desktop.png" alt="Old text size on Navigation on desktop"> | <img src="/assets/screenshots/features/logo_navigation-desktop_2.png" alt="Updated text size on Navigation on desktop"> |
+
+## Tutor
+
+- **Reduce On-Screen Text:** My tutor advised reducing the amount of on-screen text to make the content more digestible and user-friendly. This feedback led to a more concise and focused presentation of information across the site.
+
+|                                                              Old                                                               |                                                               Updated                                                                |
+| :----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------: |
+|        <img src="/assets/screenshots/features/home_introduction-desktop.png" alt="Old introduction text on Home page">         |        <img src="/assets/screenshots/features/home_introduction-desktop_2.png" alt="Updated introduction text on Home page">         |
+| <img src="/assets/screenshots/features/explore_introduction-desktop.png" alt="Old introduction text on Explore Valencia page"> | <img src="/assets/screenshots/features/explore_introduction-desktop_2.png" alt="Updated introduction text on Explore Valencia page"> |
+
 # Manual Testing
 
 ## Features Testing
 
-|                     Feature                      |                      Test case                      |                    Outcome                     |
-| :----------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------: |
-|                Navbar - Home page                |         Click on the Home link on each page         |       The user is taken to the Home page       |
-|            Navbar - Explore Valencia             |   Click on the Explore Valencia link on each page   | The user is taken to the Explore Valencia page |
-|               Navbar - Contact Us                |      Click on the Contact Us link on each page      |    The user is taken to the Contact Us page    |
-|                  Navbar - Hover                  |          Hover over all links on each page          |        Background colour changes to red        |
-| Explore Valencia page - Quick Navigation Buttons |     Hover over Attractions and Cuisine buttons      |           Buttons has red background           |
-| Explore Valencia page - Quick Navigation Buttons |      Click on Attractions and Cuisine buttons       |   The user is take to the relevant sections    |
-|                   Contact Form                   |                Submit an empty form                 |        Error signalling required fields        |
-|                   Contact Form                   | Submit completed form with required field filled in |           thank-you.html page opens            |
-|           Footer - Social Media links            |             Click on social media links             |       Each website opens in separate tab       |
-|       Thank You page - Return to Home page       |         Click on Return to Home page button         |       The user is taken to the Home page       |
-|          404 page - Return to Home page          |         Click on Return to Home page button         |       The user is taken to the Home page       |
-|              404 page - Contact Us               |             Click on Contact Us button              |    The user is taken to the Contact us page    |
+|                         Feature                         |                      Test case                      |                                     Outcome                                     |
+| :-----------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------------------------------------: |
+|                        Menu-bar                         |            Change dimensions in DevTools            |                             Menu-bar is responsive                              |
+|                  Menu-bar - Home page                   |         Click on the Home link on each page         |                       The user is taken to the Home page                        |
+|               Menu-bar - Explore Valencia               |   Click on the Explore Valencia link on each page   |                 The user is taken to the Explore Valencia page                  |
+|                  Menu-bar - Contact Us                  |      Click on the Contact Us link on each page      |                    The user is taken to the Contact Us page                     |
+|                    Menu-bar - Hover                     |          Hover over all links on each page          |                        Background colour changes to red                         |
+|                      Hero Section                       |            Change dimensions in DevTools            |                           Hero section is responsive                            |
+|            Homepage - Essential Tips Section            |            Change dimensions in DevTools            |                              Cards are responsive                               |
+|    Explore Valencia page - Quick Navigation Buttons     |     Hover over Attractions and Cuisine buttons      |              Buttons have red background, bottom border is removed              |
+|    Explore Valencia page - Quick Navigation Buttons     |      Click on Attractions and Cuisine buttons       |                    The user is take to the relevant sections                    |
+|    Explore Valencia page - Quick Navigation Buttons     |            Change dimensions in DevTools            |         Buttons are responsive - on mobile buttons sit under each other         |
+| Explore Valencia page - Attractions and Cuisine section |            Change dimensions in DevTools            | Cards are responsive - 1 column on mobile, 2 columns on tablet and 4 on desktop |
+|                      Contact Form                       |                Submit an empty form                 |                        Error signalling required fields                         |
+|                      Contact Form                       | Submit completed form with required field filled in |                            thank-you.html page opens                            |
+|               Contact Form - Clear button               |               Hover over Clear button               |            Button background becomes blue and text changes to white             |
+|              Contact Form - Submit button               |              Hover over Submit button               |           Button background becomes yellow and text changes to black            |
+|               Footer - Social Media links               |             Click on social media links             |                       Each website opens in separate tab                        |
+|               Footer - Social Media links               |            Hover over social media links            |                      Each social media link icon turns red                      |
+|                      Footer - Logo                      |                    Click on logo                    |                     The user is taken to the top of screen                      |
+|       Thank You page - Return to Home page button       |         Click on Return to Home page button         |                       The user is taken to the Home page                        |
+|       Thank You page - Return to Home page button       |        Hover over Return to Home page button        |            Button background becomes blue and text changes to white             |
+|          404 page - Return to Home page button          |         Click on Return to Home page button         |                       The user is taken to the Home page                        |
+|          404 page - Return to Home page button          |        Hover over Return to Home page button        |            Button background becomes blue and text changes to white             |
+|              404 page - Contact Us button               |             Click on Contact Us button              |                    The user is taken to the Contact us page                     |
+|              404 page - Contact Us button               |            Hover over Contact Us button             |             Button background becomes red and text changes to white             |
 
 ## Browser Compatibility
 
