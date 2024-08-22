@@ -26,7 +26,7 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
 - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
-  - [Design & Development Tools](#frameworks-libraries--programmes-used)
+  - [Design & Development Tools](#design--development-tools)
 - [Manual Testing](#manual-testing)
   - [Features Testing](#features-testing)
   - [User Stories Testing](#user-stories-testing)
@@ -36,8 +36,8 @@ Experience Valencia is a comprehensive, user-friendly online guide for tourists 
   - [Code Validation](#code-validation)
   - [Bugs](#bugs)
   - [Lighthouse Testing](#lighthouse-testing)
-- [Deployment](#deployment--local-deployment)
-  - [Deployment (GitHub Pages)](#deployment)
+- [Deployment](#deployment)
+  - [Deployment (GitHub Pages)](#deployment-github-pages)
   - [Local Deployment](#local-deployment)
 - [Credits](#credits)
   - [Code](#code)
@@ -400,7 +400,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 #### Increase Awareness
 
-<img scr="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Attractions and Cuisine Sections on Explore Valencia page" width="300" height="300">
+<img src="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Attractions and Cuisine Sections on Explore Valencia page" width="300" height="600">
 
 This image highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
 
@@ -442,7 +442,7 @@ This image illustrates the clean and intuitive layout that facilitates easy navi
 
 #### Mobile Accessibility
 
-<img scr="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Explore page on Mobile" width="300" height="300">
+<img src="/assets/screenshots/features/explore_page-mobile.jpeg" alt="Explore page on Mobile" width="300" height="600">
 
 This screenshot demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
 
@@ -597,7 +597,7 @@ The Contact Us page had a performance score of 76, with the main diagnostic issu
 
 ![Thank You page lighthouse results](/assets/screenshots/lighthouse/thank-you.html_lighthouse.png)
 
-# Deployment & Local Deployment
+# Deployment
 
 ## Deployment (GitHub Pages)
 
