@@ -387,6 +387,76 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 |              404 page - Contact Us button               |             Click on Contact Us button              |                    The user is taken to the Contact us page                     |
 |              404 page - Contact Us button               |            Hover over Contact Us button             |             Button background becomes red and text changes to white             |
 
+## User Stories Testing
+
+### Client Goals
+
+#### Increase Awareness
+
+<video src="/assets/videos/explore_valencia-page.mov" width="70%" controls></video>
+
+This video highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
+
+#### Easy Navigation
+
+|                                                   Mobile                                                   |                                                   Desktop                                                   |
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: |
+| <img src="/assets/screenshots/features/logo_navigation-mobile_2.jpeg" alt="Logo and Navigation on mobile"> | <img src="/assets/screenshots/features/logo_navigation-desktop_2.png" alt="Logo and Navigation on desktop"> |
+
+These screenshots showcase the user-friendly navigation menu that ensures users can effortlessly find their way around the website. They illustrate how the layout adapts to different screen sizes for easy navigation.
+
+#### SEO Optimisation
+
+![SEO on index.html](/assets/screenshots/features/seo_index.png)
+
+This screenshot shows the inclusion of meta tags, title, and description for SEO optimization. It reflects the website’s efforts to rank high in search engines and attract more visitors.
+
+#### Responsive and Accessible Design
+
+|                                  Mobile                                  |                                  Tablet                                  |                                  Desktop                                   |
+| :----------------------------------------------------------------------: | :----------------------------------------------------------------------: | :------------------------------------------------------------------------: |
+| ![Home Page on Mobile](assets/screenshots/features/home_page-mobile.png) | ![Home Page on Tablet](assets/screenshots/features/home_page-tablet.png) | ![Home Page on Desktop](assets/screenshots/features/home_page-desktop.png) |
+
+These images demonstrate the website’s responsive design across various devices and screen sizes. They also highlight accessibility features such as clear headings and appropriate contrast.
+
+### Visitor Goals
+
+#### Discover Top Attractions
+
+![Attractions Section on Explore Valencia page](assets/screenshots/features/explore_attractions-desktop.png)
+
+This screenshot displays detailed information about the top attractions in Valencia, helping first-time visitors plan their sightseeing itinerary.
+
+#### Easy Navigation
+
+![Introduction and Quick Navigation Buttons on Explore Valencia page](assets/screenshots/features/explore_introduction_nav_buttons.png)
+
+This image illustrates the clean and intuitive layout that facilitates easy navigation, helping users find the information they need without hassle.
+
+#### Mobile Accessibility
+
+<video src="/assets/videos/mobile_accessibility.mov" width="70%" controls></video>
+
+This video demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
+
+#### Explore Local Cuisine
+
+![Cuisine Section on Explore Valencia page](assets/screenshots/features/explore_cuisine-desktop.png)
+
+This screenshot highlights the section dedicated to local cuisine, showcasing the rich flavors and dishes available in Valencia.
+
+#### Access Essential Tips
+
+![Essential Tips on Home Page](assets/screenshots/features/home_essential_tips-desktop.png)
+
+This image shows the essential tips section that provides valuable local insights and recommendations for a better experience in Valencia.
+
+#### Share Experiences and Request Personalised Recommendations
+
+![Contact Us page](assets/screenshots/features/contact_page.png)
+
+This screenshot displays the "Contact Us" form, which allows users to share their experiences and request personalised recommendations. It illustrates how users can use the form to provide feedback, share tips, or seek tailored suggestions for their next visit.
+
 ## Browser Compatibility
 
 | Browser Tested | Intended Appearance | Intended Responsiveness |
