@@ -131,8 +131,6 @@ For this website, typography plays a crucial role in enhancing readability and v
 
 <img src="/assets/design/google_fonts.png" alt="Google Fonts used on the website">
 
-Both fonts were imported into the `style.css` file using the Google Fonts service, ensuring that they are consistently applied across all pages; this also helps with faster load times and better performance.
-
 ### Imagery
 
 #### Main Images
