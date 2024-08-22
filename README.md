@@ -393,7 +393,7 @@ Ensuring accessibility is a fundamental aspect of creating an inclusive and user
 
 #### Increase Awareness
 
-<video src="assets/videos/explore_valencia-page.mp4" width="70%" controls></video>
+![Video of Explore Valencia page](assets/videos/explore_valencia-page.mp4)
 
 This video highlights the prominent placement of information about Valencia’s top attractions and local cuisine. It demonstrates how the website raises awareness of Valencia as a top travel destination through engaging visuals and detailed content.
 
@@ -435,7 +435,7 @@ This image illustrates the clean and intuitive layout that facilitates easy navi
 
 #### Mobile Accessibility
 
-<video src="assets/videos/mobile_accessibility.mp4" width="70%" controls></video>
+![Video of website in mobile view](assets/videos/mobile_accessibility.mp4)
 
 This video demonstrates how the website adapts to mobile devices, with fast loading times and a responsive design that ensures a smooth user experience on smaller screens.
 
